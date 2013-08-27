@@ -10,8 +10,8 @@ theme:
   highlight_color: '#3498db'
 
   # Profile links on the left sidebar, leave blank to ignore
-  #social:
-  #  github: swanson
+  social:
+    github: grant-olson
   #  twitter: _swanson
   #  hacker_news: swanson
 
