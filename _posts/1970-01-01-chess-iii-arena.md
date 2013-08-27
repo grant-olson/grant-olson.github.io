@@ -2,7 +2,7 @@
 layout: post
 title: Chess III Arena
 category: projects
-description: Test
+description: OCaml + OpenGL + Quake III Arena + Chess
 ---
 
 Inspired by BattleChess, Chess III Arena allows you to play Chess with
