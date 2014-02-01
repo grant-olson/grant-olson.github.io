@@ -2,6 +2,7 @@
 layout: post
 published: true
 title: Using Your IronKey on 64-bit Ubuntu 13.10
+category: news
 ---
 
 The linux IronKey executable is 32 bit, so you can't unlock the
