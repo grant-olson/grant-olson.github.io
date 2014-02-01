@@ -55,8 +55,8 @@ After that I was good.
 On this install I'm just running xfce.  In the past I've had problems
 with gnome taking over the smart card.  See my previous post on [Using
 an OpenPGP Smartcard on Ubuntu
-12.10](./using-openpgp-smartcard-on-ubuntu-12-10) if you're still
-having problems.
+12.10](/news/2013/03/09/using-openpgp-smartcard-on-ubuntu-12-10.html)
+if you're still having problems.
 
 Getting IronKey working
 -----------------------
