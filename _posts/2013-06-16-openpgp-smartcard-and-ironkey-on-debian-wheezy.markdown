@@ -74,6 +74,7 @@ You'll need to enable multi-architecture installs for 32 bit software and
 install the 32 bit software to get the IronKey working:
 
     sudo dpkg --add-architecture i386
+    sudo apt-get update
     sudo apt-get install ia32-libs
 
 After that the provided software should work.
