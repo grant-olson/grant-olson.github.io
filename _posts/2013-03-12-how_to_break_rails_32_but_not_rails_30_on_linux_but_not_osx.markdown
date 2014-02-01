@@ -5,9 +5,6 @@ title: How to Break Rails 3.2 But Not 3.0 on Linux But Not OSX
 category: news
 ---
 
-How to Break Rails 3.2 But Not 3.0 on Linux But Not OSX
-=======================================================
-
 Over at [WebKite](http://webkite.com/), we finally got around to
 updating our rails stack to 3.2 last week.  This was of course long
 overdue.  But it's one of those things that takes a non-zero amount of

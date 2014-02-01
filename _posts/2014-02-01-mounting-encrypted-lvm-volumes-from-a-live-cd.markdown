@@ -5,9 +5,6 @@ title: Mounting Encrypted lvm Volumes From a Live CD
 category: news
 ---
 
-Mounting Encrypted lvm Volumes From a Live CD
-=============================================
-
 I once again fried my system and had to recover some files from an
 encrypted filesystem via a Live CD.  It's a frustrating experience.  I
 tried both Debian Wheezy and Ubuntu 13.10.

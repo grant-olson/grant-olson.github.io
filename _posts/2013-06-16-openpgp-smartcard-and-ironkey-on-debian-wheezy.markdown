@@ -5,9 +5,6 @@ title: Setting up an OpenPGP smartcard and IronKey on Debian Wheezy
 category: news
 ---
 
-Setting up an OpenPGP smartcard and IronKey on Debian Wheezy
-============================================================
-
 My computer just died.  I threw the hard drive into another computer.
 Everything looked good until it tried to fire up X and then I just got
 a blank screen.  You know what that means.  Time to reinstall the OS.

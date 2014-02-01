@@ -5,9 +5,6 @@ title: Using an OpenPGP Smartcard on Ubuntu 12.10
 category: news
 ---
 
-Using an OpenPGP Smartcard on Ubuntu 12.10
-==========================================
-
 I'm currently adding a key continuity feature to rubygems-openpgp.  It
 works similar to the way that ssh stores copies of known host keys,
 and warns you if the key has changed.
