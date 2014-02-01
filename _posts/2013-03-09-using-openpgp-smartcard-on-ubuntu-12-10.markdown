@@ -2,6 +2,7 @@
 layout: post
 published: true
 title: Using an OpenPGP Smartcard on Ubuntu 12.10
+category: news
 ---
 
 Using an OpenPGP Smartcard on Ubuntu 12.10
