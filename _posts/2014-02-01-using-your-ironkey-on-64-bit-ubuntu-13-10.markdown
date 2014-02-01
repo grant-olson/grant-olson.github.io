@@ -5,6 +5,9 @@ title: Using Your IronKey on 64-bit Ubuntu 13.10
 category: news
 ---
 
+Using Your IronKey on 64-bit Ubuntu 13.10
+=========================================
+
 The linux IronKey executable is 32 bit, so you can't unlock the
 IronKey on 64 bit linux.  The traditional fix is to install
 `ia32-libs`:
