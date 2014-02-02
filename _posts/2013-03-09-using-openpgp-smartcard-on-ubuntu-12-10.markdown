@@ -110,18 +110,18 @@ reading was broken again.
 The Proper Fix (or is it?)
 --------------------------
 
-Add this to ~/.gnupg-agent.conf to enable ssh support:
+Add this to ~/.gnupg/gpg-agent.conf to enable ssh support:
 
     enable-ssh-support
 
 Add this to ~/.bashrc to use gpg-agent for ssh instead of
 gnome-keyring-daemon, substituting your host name:
 
-if [ -f "${HOME}/.gnupg/gpg-agent-info-HOSTNAME" ]; then
-           . "${HOME}/.gnupg/gpg-agent-info-HOSTNAME"
-           export GPG_AGENT_INFO
-           export SSH_AUTH_SOCK
-         fi
+    if [ -f "${HOME}/.gnupg/gpg-agent-info-HOSTNAME" ]; then
+        . "${HOME}/.gnupg/gpg-agent-info-HOSTNAME"
+        export GPG_AGENT_INFO
+        export SSH_AUTH_SOCK
+    fi
 
 
 Another Complication!
