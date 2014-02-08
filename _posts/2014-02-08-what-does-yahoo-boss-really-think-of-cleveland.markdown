@@ -64,7 +64,7 @@ represents pure and unending emptiness, the absence of anything and
 everything, the state of total nothingness.  And in its infinite
 wisdom, it returns Cleveland.
 
-There are simply no other options.  Being a Pittsburgh, I have my own
+There are simply no other options.  Being a Pittsburgher, I have my own
 opinions on which of the three options is unlikely, which is possible,
 and which is probable. But I'll let you decide for yourself.
 
