@@ -68,6 +68,6 @@ There are simply no other options.  Being a Pittsburgher, I have my own
 opinions on which of the three options is unlikely, which is possible,
 and which is probable. But I'll let you decide for yourself.
 
-[As Yakov Smirnoff once said, "In every country, they make fun of
+(As Yakov Smirnoff once said, "In every country, they make fun of
 city. In U.S. you make fun of Cleveland. In Russia, we make fun of
-Cleveland."]
+Cleveland.")
