@@ -22,7 +22,7 @@ first search performed after a caching bug was introduced.
 
 After digging though the code path, it turned out that Yahoo BOSS, our
 geolocation provider, was returning the same results no matter what
-location we submittede.  Per the documentation, you perform a search
+location we submitted.  Per the documentation, you perform a search
 by submitting a request formatted as either
 `placefinder?location=<address>` or `placefinder?q=<address>`.  Our
 code was using the `location` parameter.  I tried changing this to the
