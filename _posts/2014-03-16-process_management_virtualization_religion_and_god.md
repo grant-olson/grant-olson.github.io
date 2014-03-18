@@ -1,6 +1,6 @@
 ---
 layout: post
-published: true
+published: false
 title: Process Management, Virtualization, Religion and God
 category: news
 ---
