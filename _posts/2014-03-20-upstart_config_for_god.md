@@ -11,36 +11,31 @@ with a practical one.  I needed to write an upstart script for god and couldn't 
 
 ## Full Script
 
-```
-# /etc/init/god.conf
+    # /etc/init/god.conf
+    
+    start on runlevel [2345]
+    stop on runlevel [06]
+    
+    setuid webkite
+    setgid webkite
+    
+    respawn
+    respawn limit 10 60
+    
+    env HOME=/home/webkite
+    
+    exec bash -l -c 'cd /opt/node/apps/god && exec bundle exec god -c my.god.rb -l /opt/node/log/god.log -P /opt/node/pids/god.pid -D'
 
-start on runlevel [2345]
-stop on runlevel [06]
-
-setuid webkite
-setgid webkite
-
-respawn
-respawn limit 10 60
-
-env HOME=/home/webkite
-
-exec bash -l -c 'cd /opt/node/apps/god && exec bundle exec god -c my.god.rb -l /opt/node/log/god.log -P /opt/node/pids/god.pid -D'
-```
 
 ## The Breakdown
 
-```
-start on runlevel [2345]
-stop on runlevel [06]
-```
+    start on runlevel [2345]
+    stop on runlevel [06]
 
 Run all the time, unless we go into single-user mode or shut down.
 
-```
-setuid webkite
-setgid webkite
-```
+    setuid webkite
+    setgid webkite
 
 Run as an unprivileged user.  Don't run as root.
 
@@ -51,27 +46,20 @@ gig'.
 On the positive side: We don't run as root.  We don't need a system rvm.
 And we don't need to run rvm as root.
 
-```
-respawn
-respawn limit 10 60
-```
+    respawn
+    respawn limit 10 60
 
 Have upstart respawn the process if it dies unexpectedly, but don't
 let it go into death throes and overwhelm the server if it's just
 plain broken.
 
-```
-env HOME=/home/webkite
-```
+    env HOME=/home/webkite
 
 We end up running a bash login shell to load rvm functions, but even
 that assumes that you have a decent `$HOME` variable.  We don't
 without this.
 
-
-```
-exec bash -l -c 'cd /opt/node/apps/god && exec bundle exec god -c my.god.rb -l /opt/node/log/god.log -P /opt/node/pids/god.pid -D'
-```
+    exec bash -l -c 'cd /opt/node/apps/god && exec bundle exec god -c my.god.rb -l /opt/node/log/god.log -P /opt/node/pids/god.pid -D'
 
 Actually start god.  This was the really tricky part.
 
@@ -90,4 +78,3 @@ Actually start god.  This was the really tricky part.
         correct process id.
 
 Hope this helps someone.
-          
