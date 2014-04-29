@@ -8,11 +8,11 @@ category: news
 One of the nice things about dynamic languages like ruby is the
 REPL. The Read-Evalueate-Print-Loop.  Also known as the interactive
 console.  In ruby you fire it up with `irb`.  Sometimes it's easier to
-fire this up to mess around with a class then to actually *ugh* read
+fire this up to learn about the implementation than to actually *ugh* read
 the documentation.
 
-I was messing around with dates, so I typed this out to get an idea of
-how dates were formatted.
+I was messing around with dates, and wanted to get an idea of how
+dates were formatted:
 
     grant@john-icicleboy:~$ irb
     2.1.1 :001 > require 'date'
@@ -25,10 +25,12 @@ I was really surprised to see that the date given with no arguments
 provided was 4712 BC.  Now I suspected that `Date.new` was really
 shorthand for `Date.new(0)` and that this value was actually the epoch
 for ruby's Date class, similar to the way Unix uses an epoch of
-1970-Jan-01 and stores dates as the number of seconds from this.  But
-why 4712? That seems suspiciously as if ruby assumes the world is only
-6 or 7 thousand years old! Instead of using this to troll people on
-twitter, I decided to dig in and
+1970-Jan-01 and stores dates as the number of seconds relative
+this. (2 equals 2 seconds after Jan 1, 1970, etc.)
+
+But why does ruby chose year -4712? That seems suspiciously as if ruby
+assumes the world is only 6 or 7 thousand years old!  Instead of using
+this to troll people on twitter, I decided to dig in and
 [RTFM](http://www.ruby-doc.org/stdlib-2.1.1/libdoc/date/rdoc/Date.html#method-c-new).
 This does indicate that this year was intentionally and specifically
 chosen, and talks about various calendar systems throughout the ages,
