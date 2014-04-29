@@ -30,12 +30,13 @@ this. (2 equals 2 seconds after Jan 1, 1970, etc.)
 
 But why does ruby chose year -4712? That seems suspiciously as if ruby
 assumes the world is only 6 or 7 thousand years old!  Instead of using
-this to troll people on twitter, I decided to dig in and
+this to troll people about creationism on twitter, I decided to dig in
+and
 [RTFM](http://www.ruby-doc.org/stdlib-2.1.1/libdoc/date/rdoc/Date.html#method-c-new).
 This does indicate that this year was intentionally and specifically
 chosen, and talks about various calendar systems throughout the ages,
 but isn't useful in answering the question at hand.  What is so
-important about 4712?
+important about -4712?
 
 For this we have to turn to wikipedia.  The article on the Gregorian
 Calendar isn't particularly useful.  Neither is the one on the Julian
@@ -76,6 +77,4 @@ the cycle as the end of the world? Will the headlines read:
 
 ?
 
-We'll see.
-
-And why did I learn all this today? Because of the REPL.
+We shall see.
