@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: Did Julius Caeser Predict the World Would End in CE?
+title: Did Julius Caeser Predict the World Would End in 3268 AD?
 category: news
 ---
 
