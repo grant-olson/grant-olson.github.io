@@ -14,7 +14,7 @@ before I realised I didn't even test to see if the result was true:
       Geomancer.zip_code_only?("15217").should 
     end
 
-I only noticed it when I wrote the next test and it also passed when
+I only noticed it when I wrote the next test which also passed when
 it should have failed.
 
     it "doesn't detect bad zip" do
