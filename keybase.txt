@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/grantolson
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.grant-olson.net
+  * I am grantolson (https://keybase.io/grantolson) on keybase.
+  * I have a public key with fingerprint A530 C31C D762 0D26 E2BA
+  * C384 B6F6 FFD0 E3B5 806F
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "a530c31cd7620d26e2bac384b6f6ffd0e3b5806f",
+            "host": "keybase.io",
+            "key_id": "b6f6ffd0e3b5806f",
+            "uid": "1d8dd1ebc456665b222e5a4fa4bb6d00",
+            "username": "grantolson"
+        },
+        "revoke": {
+            "sig_ids": [
+                "a7a80c6c33db62389c5678d99dcfdc9c1ec385f0b1c5b3f06884c7a766d7aa240f"
+            ]
+        },
+        "service": {
+            "hostname": "www.grant-olson.net",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1411052049,
+    "expire_in": 157680000,
+    "prev":
+    "c034455c84687193a20c943f1abf4138d46730c936175ff16ba15452e02a708a",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
+Comment: GPGTools - http://gpgtools.org
+
+owFtUltIFFEY3k0zW7ooFJFExVT4oNmZmXPOzK5dIAjChyiKoMzk3Gab3GbWmXHN
+SoiyoiAqCoqgi9RDmL0Iii/5VHSTsIjK1W7SxYrsJnTD6MxSb52Xw/n/7/++7//P
+f3RyXiQW/b3iVU3roXUPo3fe0si6ki/TdyrU5U1KYqdSJ3KXZTtJ4aU92wmUhEKQ
+DpiuMm5gDXANC40SppuQYgtbFgdCp8gE2FLKlS2uH1ZIGkp8UWG7MiYftTaX0f/g
+G3IJlZucq4IyiDDGiGqaJhCBFoGUYg5ACPSF55BtQqKTHnECN+W7jtJcrngi49aJ
+0LRvJ6WOrySqFWIQEzDMdJ1TrOlmnCFsmDwe58ziLM5UIf0jC1CVIapbAJsmZAYx
+MOYGIRoEllIjuaVmxmY58rCxv/qNjY0VOQ8LcyYqHBFIg2nPDVzmpiRgSxCkE6G3
+oCmdKxC09i9VLbUdLocrCzLC823ZQ0KVSBbYIbcKVRUgDcB4uSK2p21P1NohAhnY
+BPKEMiIjKRnQIUSImRCbhhrXiQZYHOqWSqgFVd3kEBvy0+I6Vg1kWSqmREUQaQJo
+xAAmUcLm6h13hpKA0idJSk45P4cEDZ5QmmMHo7PyI9FYpGD8uHBBIrGJRf+2Zqij
+MNI5Btp78mMdt7qKFs2vslof1zv9HROeny2+os1p8XqK28aVfM98K7t9Mkp+bfis
+DgWjnbtXfbp6pL977++B1LTG1jVu5bLq9+vpy0F0cFN65fav4y/tWJg6U/hzgXb8
+ZvDo2M2Rtq6lW9e07+oWE4v3n3uaGTu9ouHki/zekuGqd/6lU8OVI035oycmjRbN
+jT24ce1iRd7mlobdvW28ZEnl5chIlg5Av6rm2MpfM+1DfW+05YPPnL4DbdXZ+c1O
+iq6+3/WjdGrLkdkFN6b0fe8v69h2dt+3w/Ou4/PD0wuHP1l12dRIb8/ox/6hPQzd
+4x9ez960tvLuxmQxWVx2IfukdCzvDw==
+=XBTB
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here:
+https://keybase.io/grantolson
+
+==================================================================
