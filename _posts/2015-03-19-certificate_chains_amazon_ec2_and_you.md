@@ -1,9 +1,12 @@
 ---
 layout: post
 published: true
-title: Https sec_error_unknown_issuer Error in Firefox? Adding https at your AWS Load Balancer? Amazon Lied To You!
+title: Certificate Chains, Amazon EC2, and You
 category: news
 ---
+
+Are you getting https sec_error_unknown_issuer Error in Firefox? Did
+you add https at your EC2 Load Balancer? Well then Amazon lied to you.
 
 We just dealt with a really frustrating error over at webkite. Our
 site was suddenly broken with a bad ssl certificate, but only on
