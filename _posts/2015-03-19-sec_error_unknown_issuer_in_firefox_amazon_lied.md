@@ -128,3 +128,21 @@ similar one that wasn't directly related to EC2, please leave me a
 comment or shoot me an email.
 
 - Grant
+
+## Addendum
+
+A co-worker found [this article from 2012](http://www.nczonline.net/blog/2012/08/15/setting-up-ssl-on-an-amazon-elastic-load-balancer/), or almost 2 and 1/2 years
+ago!
+
+Pertinent lines:
+
+> Don’t be fooled by the AWS dialog, the certificate chain isn’t really
+> optional when your ELB is talking directly to a browser. The
+> certificate chain is the part that verifies that fully verifies which
+> certificate authority issued the certificate and therefore whether or
+> not the browser can trust that the domain certificate is
+> valid. Different browsers handle things in different ways, but if you
+> are missing the certificate chain and Firefox, you get a pretty scary
+> warning page.
+
+Doh!
