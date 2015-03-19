@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: Certificate Chains, Amazon EC2, and You
+title: Certificate Chains, Amazon EC2, and You!
 category: news
 ---
 
