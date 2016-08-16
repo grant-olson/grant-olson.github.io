@@ -7,7 +7,7 @@ description: My Contact Info
 
 Email - kgo at grant-olson dot net
 
-OpenPGP Key - [0xE3B5806F](http://pool.sks-keyservers.net:11371/pks/lookup?op=vindex&search=0xE3B5806F&fingerprint=on)
+OpenPGP Key - [0xA530C31CD7620D26E2BAC384B6F6FFD0E3B5806F](http://pool.sks-keyservers.net:11371/pks/lookup?op=vindex&search=0xA530C31CD7620D26E2BAC384B6F6FFD0E3B5806F&fingerprint=on)
 
     pub   2048R/E3B5806F 2010-01-11 [expires: 2015-01-04]
           Key fingerprint = A530 C31C D762 0D26 E2BA  C384 B6F6 FFD0 E3B5 806F
