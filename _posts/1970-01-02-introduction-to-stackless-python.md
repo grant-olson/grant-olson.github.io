@@ -3,6 +3,7 @@ layout: post
 title: Introduction to Stackless Python
 category: projects
 description: An in-depth tutorial for Stackless Python
+permalink: /:categories/:title.html
 ---
 
 This is a tutorial on Stackless Python. It is available in html and
