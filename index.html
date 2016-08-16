@@ -9,7 +9,8 @@ title: Posts
     </p>
   <h2><i class="icon-bookmark"></i> Software Projects</h2>
   <ul id="blog-posts" class="posts">
-    {% for post in site.categories.projects %}
+    {% assign ordered_projects = site.projects | sort: "display-order" %}
+    {% for post in ordered_projects" %}
       <li><span> &raquo;</span>
         {% if post.link %}
           <a href="{{ post.link }}">{{ post.title }}</a>

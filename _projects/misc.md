@@ -4,6 +4,7 @@ title: Misc. Projects
 category: projects
 description: Smaller projects not worthy of unique entries
 permalink: /:categories/:title.html
+display-order: 5
 ---
 
 Projects listed from newest to oldest.

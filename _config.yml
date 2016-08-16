@@ -4,6 +4,10 @@ url: http://example.com
 lsi: false
 exclude: [LICENSE, CNAME, README.md, .gitignore]
 
+collections:
+  projects:
+    output: true
+
 # Theme customization - please change from the defaults!
 my_theme:
   # Color for top bar, links, etc
