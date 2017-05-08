@@ -90,3 +90,7 @@ It would be nice if there was some sort of `--force` or `Are you sure?(Y/N)` pro
 ## And thankful to [Peter Eisentraut](http://peter.eisentraut.org/)
 
 Who's [homebrew tap](https://github.com/petere) saved the day. Thanks Peter!
+
+## And four hours day later on a monday afternoon
+
+That twelve character bug fix worked! I'm off to my next coding adventure. Maybe now would be a good time to upgrade to Sierra. What's the worst that could happen?
