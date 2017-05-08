@@ -5,7 +5,15 @@ title: Help! I fried my postgres install on homebrew!
 category: news
 ---
 
-Did you get an error about readline when running psql? Did you quickly do a `brew upgrade postgres`? Did everything seem fine until you rebooted your computer? Did you at that point learn that postgres wasn't running because of incompatible file versions? Did you enter a world of hurt when you started reading up on the fact that an upgrade from postgres 9.3 to postgres 9.4 required a manual DB upgrade? Were you shocked to learn that you couldn't even install postgres 9.3 after brew installed postgres 9.6? Are you currently curled up in a fetal position, covered in cold sweat, wondering how the hell you're going to have time to rebuild your complicated, er... sophisticated, development environment from scratch when there's work to be done?
+Did you:
+
+* Get an error about readline when running psql?
+* Quickly do a `brew upgrade postgres`?
+* Think everything seemed fine until you rebooted your computer?
+* At that point learn that postgres wasn't running because of incompatible file versions?
+* Enter a world of hurt when you started reading up on the fact that an upgrade from postgres 9.3 to postgres 9.4 required a manual DB upgrade?
+* Experience shock to learn that you couldn't even install postgres 9.3 after brew installed postgres 9.6?
+* Curl up in a fetal position, covered in cold sweat, wondering how the hell you're going to have time to rebuild your complicated, er... you mean sophisticated, development environment from scratch when there's so much work to be done?
 
 If so, I feel your pain. Hopefully I can help.
 
