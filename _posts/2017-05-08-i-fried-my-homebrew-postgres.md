@@ -17,7 +17,7 @@ Did you:
 
 If so, I feel your pain. Hopefully I can help.
 
-## TLDR FIX
+## Fix to migrate your old postgres 9.3 databases to 9.6 in homebrew.
 
     mv /usr/local/var/postgres/ /usr/local/var/postgres.old
 
@@ -46,7 +46,7 @@ If so, I feel your pain. Hopefully I can help.
     # Verify server is running
     psql
 
-## But now it blows up because of postgis
+## But now it blows up because of postgis!
 
 I had two old databases that used PostGIS. They caused the migration to fail. Attempts to get postgis to install on the 9.3 version of postgres failed. Unfortunately I don't have a fix for that, but can tell you how to at least delete the offending databases if you don't care about them, like I didn't. If you do need the postgis enabled databases, the documentation for the tap indicates that you can use a utility called pex to install things, but I didn't bother figuring that out.
 
@@ -86,3 +86,7 @@ It would be nice if there was some sort of `--force` or `Are you sure?(Y/N)` pro
 2. Running brew commands nilly willy.
 
 3. Not having a set up where it wasn't a problem to blow away my dev dbs and start from scratch. I should have either had backups, or been able to work from clean databases without affecting my productivity.
+
+## And thankful to [Peter Eisentraut](http://peter.eisentraut.org/)
+
+Who's [homebrew tap](https://github.com/petere) saved the day. Thanks Peter!
