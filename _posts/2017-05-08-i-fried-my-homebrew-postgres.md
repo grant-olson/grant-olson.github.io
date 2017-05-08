@@ -71,11 +71,13 @@ Brew has given more than enough I can't be too mad at it for too long, but I'm a
 
 1. It silently upgraded readline which introduced a bunch of errors to old versions of software. I actually thought this blew up when I did an OS upgrade to OSX.
 
-2. Makes no attempt to warn me that upgrading from 9.3 requires some serious manual intervention, the second time it's silently updated a version of software to a version that's incompatible with everything I have installed.
+2. It makes no attempt to warn me that upgrading from 9.3 requires some serious manual intervention, the second time it's silently updated a version of software to a version that's incompatible with everything I have installed.
 
-3. Allows no way out-of-the-box at this point for me to install the 9.3 binaries to do the upgrade from 9.3 to 9.4.
+3. It allows no way out-of-the-box at this point for me to install the 9.3 binaries to do the upgrade from 9.3 to 9.4.
 
-4. Seems to have broken old ways of installing old software by checking out an old commit of a particular brew file. Even though I tracked down the commit for 9.3, we now seem to autoupgrade and always install 9.6.2.
+4. It seems to have broken old ways of installing old software by checking out an old commit of a particular brew file. Even though I tracked down the commit for 9.3, we now seem to autoupgrade and always install 9.6.2.
+
+5. It's inexplicable (to me) deprecations of vast swaths of homebrew commands. I'm sure the developers have their reasons and if I was on top of things it would make sense, but it's frustrating to find four alternate solutions on StackOverflow that should magically fix your problem only to be told politely by brew, "Sorry, that command just doesn't work anymore. Try again!"
 
 It would be nice if there was some sort of `--force` or `Are you sure?(Y/N)` prompt for these more disruptive upgrades, and wish the 9.3 version of postgres would have floated around a bit more so I could have fixed the problem without resorting to third-party taps.
 
