@@ -96,3 +96,30 @@ Who's [homebrew tap](https://github.com/petere) saved the day. Thanks Peter!
 ## And four hours day later on a monday afternoon
 
 That twelve character bug fix worked! I'm off to my next coding adventure. Maybe now would be a good time to upgrade to Sierra. What's the worst that could happen?
+
+## Update 2018-06-05 - Brew does it again!
+
+I just tried installing pg_top, a utility that lets you view active
+connections to your database. It should be a simple tool, but brew
+decides to:
+
+1. Upgrade from 9.6.2 to 10.4 without saying anything!
+
+2. Restart the service instead of leaving the old background one in
+place!
+
+3. Makes no attempt to migrate existing databases to the new version!
+
+Fortunately, this time brew was at least kind enough to keep the old
+version around. I was able to fix it with:
+
+```
+brew switch postgres 9.6.2
+brew services postgres stop
+brew services postgres start
+```
+
+Brew, please quit auto-upgrading services in a way that leaves things
+in an inconsistent state. If I need to manually migrate between major
+postgres versions, you shouldn't just automatically update when I'm
+installing a small utility that has postgres as a dependency.
