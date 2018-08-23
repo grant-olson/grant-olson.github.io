@@ -5,6 +5,8 @@ title: Help! Google Adwords API Keys Stopped Working August 22nd!
 category: news
 ---
 
+[TLDR? Fix is at bottom of page.]
+
 We just spent two days debugging a problem with our google adwords API
 keys and finally got things working. We're not sure if this problem is
 affecting people globally, but it was particularly difficult to debug
