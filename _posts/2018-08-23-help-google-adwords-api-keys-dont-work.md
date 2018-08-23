@@ -35,7 +35,7 @@ token. As we dug in to the google code, we finally made our way to the
 [oauth2_handler.rb file in ads_common](https://github.com/googleads/google-api-ads-ruby/blob/master/ads_common/lib/ads_common/auth/oauth2_handler.rb). In
 particular the `get_token` method on line 89:
 
-```
+```ruby
 # Overrides base get_token method to account for the token expiration.
 def get_token(credentials = nil, force_refresh = false)
   token = super(credentials)
@@ -75,7 +75,7 @@ google's gems.
 
 Original adwords_api.yml, as generated from `setup_oauth2.rb`:
 
-```
+```yaml
 ---
 :authentication:
   :method: OAuth2
@@ -101,7 +101,7 @@ Original adwords_api.yml, as generated from `setup_oauth2.rb`:
 Note the pertinent information is the `:issued_at:` and `:expires_in:`
 The fix is to switch `:expires_in:` to 0:
 
-```
+```yaml
 ---
 :authentication:
   :method: OAuth2
