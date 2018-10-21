@@ -13,7 +13,7 @@ In Part One we covered basic reception of International Broadcast Stations on sh
 
 ### Quick breakdown of Signal Formats
 
-So far, we've been listening to 
+So far, we've been listening to AM signals.
 
 AM/USB/LSB
 
@@ -26,15 +26,3 @@ AM/USB/LSB
 
 * LAB - Find a local group meeting, listen.
 
-### Data Data Data
-
-Preamble
-
-Software piping!
-Loopback software!
-Much software expects to be able to transmit
-
-* CW/Morse Code
-* WeatherFax - software
-* F8 - software
-* PSK31 - fldigi
