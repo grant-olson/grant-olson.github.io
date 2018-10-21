@@ -125,6 +125,31 @@ that matches your budget without combing through reviews.
 These tune more like your car radio, and vary dependent on model, so I
 won't get in to details on tuning.
 
+#### Wire Antennas
+
+You will greatly increase reception by hooking up a simple 20 to 30
+foot wire antenna. It doesn't need to be anything fancy. They sell
+some on amazon that spool out with an alligator clip to connect to
+your existing antenna. The four basic rules are:
+
+1. Away from power lines is a must. You don't want to get electrocuted!
+2. Higher is better.
+3. Outside is better.
+4. Away from noise is better. Any time you run electricity along a
+   wire, it generates weak radio waves. Having the antenna near
+   electronics or wires will cause it to pick up a lot of local noise
+   which will interfere with legitimate signals.
+
+I stapled a spool of phone line around our back porch, ran it in
+through the window, and attached an alligator clip.
+
+**NOTE:** If you're going to take any of this advice to the extremes,
+like running a line 100 foot up between two trees, please consult a
+more detailed document on antennas. You'll need to worry about things
+like lightning causing damage not just to your radio, but other
+electronics in your house.
+
+
 > LAB - Listen To A Broadcast Radio Station
 >
 > Now that you have a radio, you can start listening. Broadcast radio
