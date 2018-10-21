@@ -1,7 +1,7 @@
 ---
 layout: post
 published: false
-title: Getting Started in Shortwave and Amateur Radio Listening on Mac OSX
+title: Getting Started in Shortwave and Amateur Radio Listening (Part Two)
 category: news
 ---
 
@@ -9,17 +9,13 @@ category: news
 
 ## Everything I Learned in My First Month of the Hobby
 
-Intro text explaining where I came from, problems, disclaimer of lack of expert etc.
+In Part One we covered basic reception of International Broadcast Stations on shortwave bands. In this part we'll talk about listening to amateur transmissions.
 
-### How to Listen
+### Quick breakdown of Signal Formats
 
-* websdr.org
-* rtl-sdr.com - cubicSDR and shortwave
-* Tecsun PL-660
+So far, we've been listening to 
 
-#### Lab - Listen to commercial Radio
-
-### Quick breakdown of AM/USB/LSB
+AM/USB/LSB
 
 #### Lab - Listen to Amateur Radio
 
