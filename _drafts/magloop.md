@@ -5,16 +5,14 @@ title: The KC3MLC Magloop
 category: news
 ---
 
-I built my own MagLoop and wanted to take a moment to share everything
+<img src='/assets/img/four_foot_loop.jpg'  />
+
+ I built my own MagLoop and wanted to take a moment to share everything
 I learned on the project. The design is moderately portable and
 defaults to a 4 foot diameter loop where I've maded plenty of FT-8
 contacts on 20-80 meters. In addition, the loop can be swapped out for
 a smaller 2 foot loop to work higher frequencies, and a larger 8 foot
 loop to get better effenciency on 40-80 meters.
-
-<img src='/assets/img/normal_loop.jpg' width='50%' />
-
-<img src='/assets/img/big_loop.jpg' width='50%' />
 
 
 ## Basic Theory
@@ -125,27 +123,33 @@ I also drilled six holes to allow me to use three U Bolts to hold the
 mast in place. This completed the base.
 
 
-### Loops and driven elements
-
-
 ### PVC Supports
 
-I made a set of composable PVC support pipes that would allow me to
+<img src='/assets/img/pvc_supports.jpg' width='35%'
+style='float:right;' /> I
+made a set of composable PVC support
+pipes that would allow me to
 easily set up loops of either 2, 4, or 8 foot diameters. My big box
 hardware store had pre-cut 2 foot sections of pipe, and I went for
 this rather than cut them myself. I also bought adapters to get the
 following combinations. The pipes were 3/4 inch and had an outer
 diameter of 1 inch.
 
-* One pipe with a four way adapter attached to one end.
+* One pipe with a four way adapter attached to one end which I'll
+  refer to as the **crossbeam**.
 
-* Two pipes with T adapters to support the sides of the RG-213 loop.
+* Two pipes with T adapters to support the sides of the RG-213 loop
+  which I'll refer to as the **side supports**.
 
-* One pipe with a modified T adapter to support the top of the loop. A
+* <img src='/assets/img/pvc_top_support.jpg' width='20%' style='float:right;' /> One pipe with a modified T adapter to support the top of the loop
+  which I'll refer to as the **top support**. A
   slot was cut in to this so the main loop, along with the driven
-  element could be hung on the adapter without having to pass through it.
+  element could be hung on the adapter without having to pass through
+  it. To do this I put the adapter in a vice and cut it with a hacksaw
+  *before* attaching it to the pipe section.
 
-* Four pipes with a standard coupling attached to one end to act as
+* Four pipes with a standard coupling attached to one end which I'll
+refer to as the **extensions**.
 extenders.
 
 The attachments were glued on with PVC primer and glue. **DO THIS
@@ -162,21 +166,78 @@ adapter.
 
 The eight foot loop is the most complicated. I add the extenders
 simply enough, but then needed to use support ropes to keep the
-assembly from drooping, and used guy wires on the final installation.
+assembly from drooping, and used guy wires on the final
+installation. I'll get in to more details later after going through
+initial configuration of the four foot loop.
 
-Holes were drilled in to the two base pieces to attach the cable.
+### Loops
 
-* Explain knots and holes!
+### Driven Elements
 
 ### Stand
 
 * Note on height testing. 17 inch and up.
 
-### Support Tension Lines
+### Tuning
 
-* Tip: Cutting Paracord. Don't Saw. Melt briefly with grill lighter.
+Initial tuning is done by adjusting the variable capacitor. I attached
+a key ring to mine to make it easier to turn. When the capacitor is
+fully retracted and has the *least* amount of capacitance, you'll be
+closest to the ideal performance for the given loop size. At this
+point, very small changes in capacitance will have a large impact on
+the frequency sweet spot. As you add more capacitance and the
+frequency goes down, you'll find that the bandwitdth decreases and
+that you'll need to move the capacitor more to move the frequency.
+
+When you initially tune the antenna, you'll probably have a poor
+best-case SWR. Once you're within range of the band you want to
+transmit on, you'll need to adjust the driven element positioning to
+get the best possible SWR. This is done through experimentation and in
+my experience relies on two factors:
+
+1. How much of the top of the driven element contacts the loop.
+2. How far up or down the bottom of the driven element is from the
+main loop.
+
+You'll need to experiment for yourself. Here are some notes on what
+worked for me. These are not intended to be perscriptive; you'll need
+to find your own settings. They will just give you a starting point of
+adjustments to try:
+
+* The driven elements should be close to the plane of the main loop,
+  but don't worry about the support pipes preventing you from getting
+  that last 1/2 inch.
+
+* <img src='/assets/img/two_foot_driven_element.jpg' width='15%'
+  style='float:right' /> My driven element for the 2 foot loop most resembles what you'll see
+  in diagrams and is a nice round circle attached to the top of the
+  antenna. Even still, some movement up and down on the bottom half
+  helps as I switch between various bands.
+
+* My driven element for 4 foot worked best with the most surface area
+  possible attached to the main loop, and the bottom half located
+  extremely high, making a crescent shape.
+
+* The driven element for the 8 foot worked best in a kite shape, with
+  barely any contact on the top of the loop. This also benefited from
+  adjusting the position of the bottom on different frequencies. In
+  general as the frequency goes down, pulling the bottom down helped
+  on both this and the two foot antenna.
+
+
 
 ## Performance
 
 
 > Note on pskreporter.info
+
+### Setting up the 8 footer!
+
+Holes were drilled in to the two base pieces to attach the cable.
+
+* Explain knots and holes!
+
+### Support Tension Lines
+
+* Tip: Cutting Paracord. Don't Saw. Melt briefly with grill lighter.
+
