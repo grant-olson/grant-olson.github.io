@@ -214,7 +214,8 @@ adjustments to try:
   antenna. Even still, some movement up and down on the bottom half
   helps as I switch between various bands.
 
-* My driven element for 4 foot worked best with the most surface area
+* <img src='/assets/img/four_foot_driven_element.jpg' width='15%'
+  style='float:right' /> My driven element for 4 foot worked best with the most surface area
   possible attached to the main loop, and the bottom half located
   extremely high, making a crescent shape.
 
