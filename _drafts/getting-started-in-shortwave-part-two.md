@@ -1,6 +1,5 @@
 ---
 layout: post
-published: false
 title: Getting Started in Shortwave and Amateur Radio Listening (Part Two)
 category: news
 ---
