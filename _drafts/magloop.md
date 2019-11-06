@@ -228,8 +228,27 @@ adjustments to try:
 
 ## Performance
 
+> [pskreporter.info](https://pskreporter.info/pskmap.html) provides
+> a great way to see how your antenna is doing when you're working
+> digital modes. Various stations send signal reports to a centralized
+> location where you can view how well things are propagating, even
+> when people are ignoring your CQ calls.
+>
+> Note that if you want to help out others and send your FT8 reception
+> reports, you must enable this in WJST-X settings under **Reporting**.
 
-> Note on pskreporter.info
+
+All results shown are from grid square EN90 running a Yaesu FT-857d at
+100 Watts.
+
+#### 2019-Nov-06
+
+Afternoon with the 4 foot antenna sitting on a bucket tuned to 20
+meters sitting outside pointing exactly North-South. Scored my first
+Alaska contact and a couple hits in Brazil.
+
+<img src='/assets/img/20m_bearing_zero_alaska.png' width='100%' />
+
 
 ### Setting up the 8 footer!
 
