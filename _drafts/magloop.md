@@ -122,6 +122,7 @@ capacitor to the board with a few screws.
 I also drilled six holes to allow me to use three U Bolts to hold the
 mast in place. This completed the base.
 
+> STEP DRILL
 
 ### PVC Supports
 
@@ -172,7 +173,57 @@ initial configuration of the four foot loop.
 
 ### Loops
 
+I will generally refer to the loops by diameter which is also the height of the
+PVC supports. These are nice round numbers where the actual size of
+the loop is diameter times pi. In addition there is some amount
+subtraced from the ideal cable length to account for the area of the
+loop where the capacitor sits and there isn't any wire.
+
+The loops are made of RG-213 coax with PL239 plugs attached at each
+end. This allows me to insert the loop into the support frame and
+screw it in to the base.
+
+The actual cable length was:
+
+* **2 Foot Loop** - 5 foot, 9 inches
+* **4 Foot Loop** - 12 foot, 8 inches
+* **8 Foot Loop** - 23 foot, 6 inches
+
+The 8 foot loop ended up being slightly shorter because it was
+drooping more, and I went with more of a diamond shaped loop to avoid this.
+
+If you're trying to build your own antenna, rather than measuring out
+to these lengths, I would attach a PL239 adapter to one end of the
+coax, feet it through the supports and screw it in, and then mark off
+the appropriate place to cut the other end of the cable. This will
+give a better loop if your project box or SO-239 placement is
+different than mine.
+
 ### Driven Elements
+
+The driven elements are made from RG-8X and should be 1/5 the size of
+the loop coax. I did not try to factor in the full loop size including
+capacitor and just used the physical coax length divided by 5. There
+also needs to be a connector to hook the driven element up to your
+feed line, so when you cut the cable add 6 to 8 inches or more
+depending on how confident you are about getting the coax stripped and
+adapter installed on the first try. I used a female BNC adaptor but
+feel free to use whatever adapter you want.
+
+There are many confusing designs available for the driven element. In
+the end I chose the least confusing one. This involved soldering the
+**center conductor** of the coax to the **shield** where the loop will
+be the appropriate size. I still don't understand exactly how this
+works, but it does. RF behavior on what intuitively seems to be a
+short can be a bit strange at times.
+
+** IMAGE OF COAX **
+
+I stripped one end of the coax with a standard stripping tool, and
+then gently cut away the outer insulation for about 1 cm at the
+appropriate length. I then soldered taking care not to melt the
+dialectic material under the shield. After that I added an adapter to
+the free end.
 
 ### Stand
 
