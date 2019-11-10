@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: The KC3MLC Magloop
+title: KC3MLC's Magloop
 category: news
 ---
 
@@ -9,7 +9,7 @@ category: news
 
  I built my own MagLoop and wanted to take a moment to share everything
 I learned on the project. The design is moderately portable and
-defaults to a 4 foot diameter loop where I've maded plenty of FT-8
+defaults to a 4 foot diameter loop where I've made plenty of FT-8
 contacts on 20-80 meters. In addition, the loop can be swapped out for
 a smaller 2 foot loop to work higher frequencies, and a larger 8 foot
 loop to get better effenciency on 40-80 meters.
@@ -227,7 +227,14 @@ the free end.
 
 ### Stand
 
-* Note on height testing. 17 inch and up.
+The base needs some height off the ground to get to a normal
+pattern. Not that much, maybe 18 inches. I imagine more height will
+get lower takeoff angles and better DX performance. I mostly just set
+the antenna on a table in my back porch. But when I'm setting it up
+outside I use an upside-down utility bucket as the stand. When using
+the 8 foot antenna, this requires the use of guy lines, which I'll
+talk about later. But initial testing will be easiest if you have a
+picnic table or something.
 
 ### Tuning
 
@@ -301,6 +308,24 @@ Alaska contact and a couple hits in Brazil.
 
 <img src='/assets/img/20m_bearing_zero_alaska.png' width='100%' />
 
+
+#### 2019-Nov-09
+
+A half-hour in the afternoon with the 8 foot antenna facing East/West on 30
+meters. Contacted Italy a few times, as well as Croatia, Crete, and
+the Balearic Islands. PSKReporter showed one bounce to Australia but
+alas it didn't hold out!
+
+<img src='/assets/img/30m_8ft_ew.png' width='100%' />
+
+#### 2019-Nov-10
+
+A half-hour in the morning with the 8 foot antenna facing East/West on
+40 meters. We are getting further than groundwave, but only high angles
+are making it back, giving an effective radius of somewhere between
+750-1000 miles with a few outliers.
+
+<img src='/assets/img/40m_8ft_morning.png' />
 
 ### Setting up the 8 footer!
 
