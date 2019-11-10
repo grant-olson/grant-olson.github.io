@@ -443,4 +443,9 @@ are making it back, giving an effective radius of somewhere between
 
 <img src='/assets/img/magloop/40m_8ft_morning.png' />
 
+Then an hour after sunset with the same configuration once the
+Atlantic Ocean was covered in darkness. Made several EU contacts.
+
+<img src='/assets/img/magloop/40m_8ft_sunset.png' />
+
 
