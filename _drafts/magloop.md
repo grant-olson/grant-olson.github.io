@@ -370,9 +370,9 @@ I assembled the inner set of supports, which consists of the crossbeam
 and three extensions with normally placed holes. I tied a knot in one
 end of the paracord, inserted it through one set of holes at the base
 of the crossbeam, then worked my way through the other three supports
-running the line through the hole, pulling it tight, and tying a clove
-hitch. Once these three supports were secure, I ran the line through
-the second set of holes on the crossbeam, tied a tautline hitch, and
+running the line through the hole, pulling it tight, and tying a [clove
+hitch](https://www.netknots.com/rope_knots/clove-hitch). Once these three supports were secure, I ran the line through
+the second set of holes on the crossbeam, tied a [tautline hitch](https://www.netknots.com/rope_knots/tautline-hitch), and
 pulled it tight.
 
 I then added the remaining supports and did the same thing. It is best
@@ -389,10 +389,10 @@ installation, this will sit fine on flat land without falling over.
 #### Guy lines
 
 The 8 foot loop also needs guy lines. I cut paracord to three appropriate
-lengths, melted the ends closed, and tied a bowline knot on one
+lengths, melted the ends closed, and tied a [bowline knot](https://www.netknots.com/rope_knots/bowline) on one
 end. After that I looped them around the center mast, placed the
 antenna on my support bucket, and secured the lines to stakes with
-tautline hitches and applied tension.
+[tautline hitches](https://www.netknots.com/rope_knots/tautline-hitch) and applied tension.
 
 A helper is extremely useful here especially when the land is not
 flat, but you can usually find one line to secure first while holding
