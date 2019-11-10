@@ -12,11 +12,11 @@ everything I learned on the project. The design is moderately portable
 and defaults to a 4 foot diameter loop where I've made plenty of FT-8
 contacts on 17-80 meters. In addition, the loop can be swapped out for
 a smaller 2 foot loop to work higher frequencies up to 10 meters, and
-a larger 8 foot loop to get better effenciency on 30-80 meters.
+a larger 8 foot loop to get better efficiency on 30-80 meters.
 
 Need the TLDR on the antenna's performance? [Click Here!](#performance)
 
-## Basic Theory
+## Basic Magloop Theory
 
 One problem I had while learning about this was that things just
 didn't make sense! Everything I've read before said loop antennas need
@@ -77,8 +77,8 @@ swappable variations of loop sizes easily.
 
 ### Temporary
 
-This is indended to be used onsite temporarily. It's not intended to
-be mounted permanantly. As such I tried to make it a little weather
+This is intended to be used onsite temporarily. It's not intended to
+be mounted permanently. As such I tried to make it a little weather
 resistant in case there's some light rain, but made no attempt to make
 it fully water or wind proof.
 
@@ -129,7 +129,7 @@ reduce the wobbling, I bought a piece of 6 inch wood, and cut it it
 fit inside the box. I then used some old nylon straps to secure the
 capacitor to the board with a few screws.
 
-> **ProTip&trade;:** Note on imprvisation with parts
+> **ProTip&trade;:** Note on improvisation with parts
 
 
 
@@ -168,24 +168,12 @@ fumes still managed to pervade the entire first floor of our house. We
 had to open the windows and air it all out. It is highly recommended
 you use more ventilation.
 
-To assemble the small version with a 2 foot loop, I attached the
-single modified T adapter to the base.
-
-For the four foot loop, I added the three T adapters to the four way
-adapter.
-
-The eight foot loop is the most complicated. I add the extenders
-simply enough, but then needed to use support ropes to keep the
-assembly from drooping, and used guy wires on the final
-installation. I'll get in to more details later after going through
-initial configuration of the four foot loop.
-
 ### Loops
 
 I will generally refer to the loops by diameter which is also the height of the
 PVC supports. These are nice round numbers where the actual size of
 the loop is diameter times pi. In addition there is some amount
-subtraced from the ideal cable length to account for the area of the
+subtracted from the ideal cable length to account for the area of the
 loop where the capacitor sits and there isn't any wire.
 
 The loops are made of RG-213 coax with PL239 plugs attached at each
@@ -247,7 +235,7 @@ reception on 20, 40, and 80 meters. I would also suggest using a
 convenient workspace such as a table in your hamshack since it will
 take some time to perform initial configuration of the driven
 element. Once the driven element is configured, it will be easier to
-set up in a more desireable location.
+set up in a more desirable location.
 
 To assemble:
 
@@ -260,7 +248,7 @@ through the side supports.
 5. **First time only** Insert the driven element in to the top support,
    and experiment with positioning as described in the
    [tuning section](#tuning-the-driven-element) securing with temporary tape. Once you
-   find a workable position, permanantly tape it in to place in a way
+   find a workable position, permanently tape it in to place in a way
    where it can be easily removed when the main loop is removed from
    the support tubing.
 6. Attach the feed line to the driven element.
@@ -297,10 +285,10 @@ try to dial in on an exact bearing.
 Initial tuning is done by adjusting the variable capacitor. I attached
 a key ring to mine to make it easier to turn. When the capacitor is
 fully retracted and has the *least* amount of capacitance, you'll be
-closest to the ideal efficienty for the given loop size. At this
+closest to the ideal efficiency for the given loop size. At this
 point, very small changes in capacitance will have a large impact on
 the frequency sweet spot. As you add more capacitance and the
-frequency goes down, you'll find that the bandwitdth decreases and
+frequency goes down, you'll find that the bandwidth decreases and
 that you'll need to move the capacitor more to move the frequency.
 
 #### Tuning the Driven Element
@@ -316,7 +304,7 @@ my experience relies on two factors:
 main loop.
 
 You'll need to experiment for yourself. Here are some notes on what
-worked for me. These are not intended to be perscriptive; you'll need
+worked for me. These are not intended to be prescriptive; you'll need
 to find your own settings. They will just give you a starting point of
 adjustments to try:
 
@@ -355,7 +343,7 @@ adjustments to try:
 
 The 8 foot loop requires both tension lines to hold the PVC supports
 in place. I
-drilled X/Y INCH holes in the support elemement that could pass
+drilled X/Y INCH holes in the support element that could pass
 through paracord. Holes were drilled through both sides of the pipe.
 
 Hole Placement:
@@ -380,7 +368,7 @@ melted them too much.
 
 I assembled the inner set of supports, which consists of the crossbeam
 and three extensions with normally placed holes. I tied a knot in one
-end of the paracord, inserted it thorugh one set of holes at the base
+end of the paracord, inserted it through one set of holes at the base
 of the crossbeam, then worked my way through the other three supports
 running the line through the hole, pulling it tight, and tying a clove
 hitch. Once these three supports were secure, I ran the line through
@@ -449,7 +437,7 @@ alas it didn't hold out!
 #### 2019-Nov-10
 
 A half-hour in the morning with the 8 foot antenna facing East/West on
-40 meters. We are getting further than groundwave, but only high angles
+40 meters. We are getting further than ground-wave, but only high angles
 are making it back, giving an effective radius of somewhere between
 750-1000 miles with a few outliers.
 
