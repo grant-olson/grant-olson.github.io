@@ -240,6 +240,41 @@ At this point you should be ready to do an initial smoke test. I would
 recommend using the 4 foot antenna and setting the assembly on a table
 before trying to use it outside.
 
+### Setting up the loop
+
+I would suggest starting with the 4 foot loop, which can get some
+reception on 20, 40, and 80 meters. I would also suggest using a
+convenient workspace such as a table in your hamshack since it will
+take some time to perform initial configuration of the driven
+element. Once the driven element is configured, it will be easier to
+set up in a more desireable location.
+
+To assemble:
+
+1. Add the two side supports and top support to the crossbeam.
+2. Insert the crossbeam in to the U bolts and tighten the wing nuts to
+hold it in place.
+3. Hang the loop cable inside the top support, and thread the ends
+through the side supports.
+4. Screw the PL-239 connectors in to the base unit.
+5. **First time only** Insert the driven element in to the top support,
+   and experiment with positioning as described in the
+   [tuning section](#tuning-the-driven-element) securing with temporary tape. Once you
+   find a workable position, permanantly tape it in to place in a way
+   where it can be easily removed when the main loop is removed from
+   the support tubing.
+6. Attach the feed line to the driven element.
+
+It should loop like this:
+
+<img src='/assets/img/magloop/4ft_initial_config.jpg' />
+
+After initial testing you may want to set up the two foot loop. The
+procedure is basically the same, but you'll use the Top Support only
+on the base:
+
+<img src='/assets/img/magloop/2ft_loop.jpg' />
+
 ### Positioning
 
 To get lowest SWR, the loop must be off of the ground. While testing
@@ -257,6 +292,8 @@ try to dial in on an exact bearing.
 
 ### Tuning
 
+#### Tuning the Capacitor
+
 Initial tuning is done by adjusting the variable capacitor. I attached
 a key ring to mine to make it easier to turn. When the capacitor is
 fully retracted and has the *least* amount of capacitance, you'll be
@@ -265,6 +302,8 @@ point, very small changes in capacitance will have a large impact on
 the frequency sweet spot. As you add more capacitance and the
 frequency goes down, you'll find that the bandwitdth decreases and
 that you'll need to move the capacitor more to move the frequency.
+
+#### Tuning the Driven Element
 
 When you initially tune the antenna, you'll probably have a poor
 best-case SWR. Once you're within range of the band you want to
