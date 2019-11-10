@@ -5,7 +5,7 @@ title: KC3MLC's Magloop
 category: news
 ---
 
-<img src='/assets/img/four_foot_loop.jpg'  />
+<img src='/assets/img/magloop/4ft_loop.jpg'  />
 
  I built my own MagLoop and wanted to take a moment to share
 everything I learned on the project. The design is moderately portable
@@ -115,7 +115,7 @@ I drilled holes on two sides to mount some PL-239 adapters.
 > repeatedly and without melting ABS plastic. A set is very affordable
 > and probably available at your local Harbor Freight.
 
-<img src='/assets/img/loop_capacitor.jpg' width='50%' style='float:right;' /> I used an
+<img src='/assets/img/magloop/capacitor.jpg' width='50%' style='float:right;' /> I used an
 extra long bolt and two washers to attach some 14 gauge wire to the
 adapters, and then attached this to the variable capacitor with hose
 clamps. 
@@ -135,7 +135,7 @@ capacitor to the board with a few screws.
 
 ### PVC Supports
 
-<img src='/assets/img/pvc_supports.jpg' width='35%'
+<img src='/assets/img/magloop/pvc_supports.jpg' width='35%'
 style='float:right;' /> I
 made a set of composable PVC support
 pipes that would allow me to
@@ -151,7 +151,7 @@ diameter of 1 inch.
 * Two pipes with T adapters to support the sides of the RG-213 loop
   which I'll refer to as the **side supports**.
 
-* <img src='/assets/img/pvc_top_support.jpg' width='20%' style='float:right;' /> One pipe with a modified T adapter to support the top of the loop
+* <img src='/assets/img/magloop/pvc_top_support.jpg' width='20%' style='float:right;' /> One pipe with a modified T adapter to support the top of the loop
   which I'll refer to as the **top support**. A
   slot was cut in to this so the main loop, along with the driven
   element could be hung on the adapter without having to pass through
@@ -285,18 +285,18 @@ adjustments to try:
   but don't worry about the support pipes preventing you from getting
   that last 1/2 inch.
 
-* <img src='/assets/img/two_foot_driven_element.jpg' width='15%'
+* <img src='/assets/img/magloop/2ft_driven_element.jpg' width='15%'
   style='float:right;clear:both;overflow:auto;' /> My driven element for the 2 foot loop most resembles what you'll see
   in diagrams and is a nice round circle attached to the top of the
   antenna. Even still, some movement up and down on the bottom half
   helps as I switch between various bands.
 
-* <img src='/assets/img/four_foot_driven_element.jpg' width='15%'
+* <img src='/assets/img/magloop/4ft_driven_element.jpg' width='15%'
   style='float:right;clear:both;overflow:auto;' /> My driven element for 4 foot worked best with the most surface area
   possible attached to the main loop, and the bottom half located
   extremely high, making a crescent shape.
 
-* <img src='/assets/img/8ft_driven_element.jpg' width='15%'
+* <img src='/assets/img/magloop/8ft_driven_element.jpg' width='15%'
   style='float:right;clear:both;overflow:auto;' /> The driven element for the 8 foot worked best
   in a kite shape, with
   barely any contact on the top of the loop. This also benefited from
@@ -310,7 +310,7 @@ adjustments to try:
 
 ## Setting up the 8 footer
 
-<img src='/assets/img/8ft_front.jpg' />
+<img src='/assets/img/magloop/8ft_front.jpg' />
 
 #### Tension lines
 
@@ -395,7 +395,7 @@ Afternoon with the 4 foot antenna sitting on a bucket tuned to 20
 meters sitting outside pointing exactly North-South. Scored my first
 Alaska contact and a couple hits in Brazil.
 
-<img src='/assets/img/20m_bearing_zero_alaska.png' width='100%' />
+<img src='/assets/img/magloop/20m_bearing_zero_alaska.png' width='100%' />
 
 
 #### 2019-Nov-09
@@ -405,7 +405,7 @@ meters. Contacted Italy a few times, as well as Croatia, Crete, and
 the Balearic Islands. PSKReporter showed one bounce to Australia but
 alas it didn't hold out!
 
-<img src='/assets/img/30m_8ft_ew.png' width='100%' />
+<img src='/assets/img/magloop/30m_8ft_ew.png' width='100%' />
 
 #### 2019-Nov-10
 
@@ -414,6 +414,6 @@ A half-hour in the morning with the 8 foot antenna facing East/West on
 are making it back, giving an effective radius of somewhere between
 750-1000 miles with a few outliers.
 
-<img src='/assets/img/40m_8ft_morning.png' />
+<img src='/assets/img/magloop/40m_8ft_morning.png' />
 
 
