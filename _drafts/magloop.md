@@ -7,13 +7,14 @@ category: news
 
 <img src='/assets/img/four_foot_loop.jpg'  />
 
- I built my own MagLoop and wanted to take a moment to share everything
-I learned on the project. The design is moderately portable and
-defaults to a 4 foot diameter loop where I've made plenty of FT-8
-contacts on 20-80 meters. In addition, the loop can be swapped out for
-a smaller 2 foot loop to work higher frequencies, and a larger 8 foot
-loop to get better effenciency on 40-80 meters.
+ I built my own MagLoop and wanted to take a moment to share
+everything I learned on the project. The design is moderately portable
+and defaults to a 4 foot diameter loop where I've made plenty of FT-8
+contacts on 17-80 meters. In addition, the loop can be swapped out for
+a smaller 2 foot loop to work higher frequencies up to 10 meters, and
+a larger 8 foot loop to get better effenciency on 30-80 meters.
 
+Need the TLDR on the antenna's performance? [Click Here!](#performance)
 
 ## Basic Theory
 
@@ -39,7 +40,7 @@ it, and we're good to go.
 
 ## Design Goals and Decisions
 
-### The Capactior Was Absurdly Large!
+### Absurdly Large Capacitor!
 
 As you read up on designs, one thing that quickly becomes apparent is
 that you need a variable capacitor that can handle very high voltages
@@ -54,13 +55,12 @@ huge! *Get Dimensions* and weight in at something like 6 pounds! Many
 loop designers say the antenna works better if the capacitor is on the
 top of the loop. This simply wasn't going to happen with a capacitor
 this big and heavy. I also had dreams of a loop that I could easily
-mount on a stick to get some height off of the ground. That wasn't an
+mount on a mast to get some height off of the ground. That wasn't an
 option either given the size of this beast!
 
 My design was altered to put the capacitor in a big plastic box that
-would act as a base for the antenna. It can go on a table or even a
-upside down 20 Gallon bucket, but needs some sort of stand to get
-distance from the ground.
+would act as a base for the antenna. It can go on a table or stand,
+but needs some sort of stand to get distance from the ground.
 
 ### Portable
 
@@ -106,23 +106,32 @@ work. So I went to my local big box hardware store and found a 12 inch
 by 12 inch plastic electrical junction box. If I had been more
 patient, I probably could have found something cheaper.
 
-I drilled holes on two sides to mount some PL-239 adapters. I used an
+I drilled holes on two sides to mount some PL-239 adapters.
+
+> **ProTip&trade;:** If you're starting to make a bunch of amateur
+> radio gear and you don't have a [STEP DRILL BIT](https://www.google.com/search?q=step+drill+bit) you'll want to get
+> one as soon as possible. It allows you to drill large holes for
+> things like SO-239 adapters without having to switch out bits
+> repeatedly and without melting ABS plastic. A set is very affordable
+> and probably available at your local Harbor Freight.
+
+<img src='/assets/img/loop_capacitor.jpg' width='50%' style='float:right;' /> I used an
 extra long bolt and two washers to attach some 14 gauge wire to the
 adapters, and then attached this to the variable capacitor with hose
-clamps. This was enough to start using things, but it eventually
+clamps. 
+
+I also drilled six holes to allow me to use three U Bolts with wing nuts to hold the
+mast in place. This completed the base.
+
+This was enough to start using things, but it eventually
 became frustrating to tune the capacitor as it wobbled around. To
 reduce the wobbling, I bought a piece of 6 inch wood, and cut it it
 fit inside the box. I then used some old nylon straps to secure the
 capacitor to the board with a few screws.
 
-> Note on imprvisation with parts
+> **ProTip&trade;:** Note on imprvisation with parts
 
-<img src='/assets/img/loop_capacitor.jpg' width='50%' style='float=right;' />
 
-I also drilled six holes to allow me to use three U Bolts to hold the
-mast in place. This completed the base.
-
-> STEP DRILL
 
 ### PVC Supports
 
@@ -225,23 +234,33 @@ appropriate length. I then soldered taking care not to melt the
 dialectic material under the shield. After that I added an adapter to
 the free end.
 
-### Stand
+## Installation
 
-The base needs some height off the ground to get to a normal
-pattern. Not that much, maybe 18 inches. I imagine more height will
-get lower takeoff angles and better DX performance. I mostly just set
-the antenna on a table in my back porch. But when I'm setting it up
-outside I use an upside-down utility bucket as the stand. When using
-the 8 foot antenna, this requires the use of guy lines, which I'll
-talk about later. But initial testing will be easiest if you have a
-picnic table or something.
+At this point you should be ready to do an initial smoke test. I would
+recommend using the 4 foot antenna and setting the assembly on a table
+before trying to use it outside.
+
+### Positioning
+
+To get lowest SWR, the loop must be off of the ground. While testing
+on my back porch, I just sat it on a bar-height table. When I use the
+antenna outside, I set it on an upside-down utility bucket which is
+about 18 inches high. Any lower than that and the SWR starts creeping
+up again. I suspect even higher is still better, as you'll get better
+angles for DX takeoff, but the bucket was adequate to hit Europe and
+South America from Pittsburgh.
+
+The antenna also has some directionality, with the strongest signal
+shooting off of the ends of the loop. It's only somewhat directional,
+so I generally just point it either North/South or East/West and don't
+try to dial in on an exact bearing.
 
 ### Tuning
 
 Initial tuning is done by adjusting the variable capacitor. I attached
 a key ring to mine to make it easier to turn. When the capacitor is
 fully retracted and has the *least* amount of capacitance, you'll be
-closest to the ideal performance for the given loop size. At this
+closest to the ideal efficienty for the given loop size. At this
 point, very small changes in capacitance will have a large impact on
 the frequency sweet spot. As you add more capacitance and the
 frequency goes down, you'll find that the bandwitdth decreases and
@@ -267,27 +286,97 @@ adjustments to try:
   that last 1/2 inch.
 
 * <img src='/assets/img/two_foot_driven_element.jpg' width='15%'
-  style='float:right' /> My driven element for the 2 foot loop most resembles what you'll see
+  style='float:right;clear:both;overflow:auto;' /> My driven element for the 2 foot loop most resembles what you'll see
   in diagrams and is a nice round circle attached to the top of the
   antenna. Even still, some movement up and down on the bottom half
   helps as I switch between various bands.
 
 * <img src='/assets/img/four_foot_driven_element.jpg' width='15%'
-  style='float:right' /> My driven element for 4 foot worked best with the most surface area
+  style='float:right;clear:both;overflow:auto;' /> My driven element for 4 foot worked best with the most surface area
   possible attached to the main loop, and the bottom half located
   extremely high, making a crescent shape.
 
-* The driven element for the 8 foot worked best in a kite shape, with
+* <img src='/assets/img/8ft_driven_element.jpg' width='15%'
+  style='float:right;clear:both;overflow:auto;' /> The driven element for the 8 foot worked best
+  in a kite shape, with
   barely any contact on the top of the loop. This also benefited from
   adjusting the position of the bottom on different frequencies. In
   general as the frequency goes down, pulling the bottom down helped
   on both this and the two foot antenna.
 
+  As pictured, you can see
+  velcro holding the loop in a position which is best for 40 and 80
+  meters, and I move it up for 30 meters.
 
+## Setting up the 8 footer
+
+<img src='/assets/img/8ft_front.jpg' />
+
+#### Tension lines
+
+The 8 foot loop requires both tension lines to hold the PVC supports
+in place. I
+drilled X/Y INCH holes in the support elemement that could pass
+through paracord. Holes were drilled through both sides of the pipe.
+
+Hole Placement:
+
+* **Side and Top Supports** A hole close to and parallel with the T
+Adapters.
+
+* **Crossbeam Support** Two sets of holes, near the base with enough
+  room for the extension element, perpendicular to each other with a
+  half inch space between them.
+
+* **Three Extensions** One hole drilled all the way through near the
+coupling.
+
+* **The Base Extension** Two sets of holes like the crossbeam support,
+  but located so that they are *above* the capacitor housing so it
+  doesn't interfere with the tension ropes.
+
+I cut appropriate lengths of rope and melted the ends shut with a
+grill lighter. If you smell burning plastic and see smoke, you've
+melted them too much.
+
+I assembled the inner set of supports, which consists of the crossbeam
+and three extensions with normally placed holes. I tied a knot in one
+end of the paracord, inserted it thorugh one set of holes at the base
+of the crossbeam, then worked my way through the other three supports
+running the line through the hole, pulling it tight, and tying a clove
+hitch. Once these three supports were secure, I ran the line through
+the second set of holes on the crossbeam, tied a tautline hitch, and
+pulled it tight.
+
+I then added the remaining supports and did the same thing. It is best
+to (1) do this outdoors, and (2) only insert the supports as you're
+ready to tie them in place.
+
+At this point you can mount the support in to the base and tighten
+down the U Bolts. Although you'll need guy lines for long term
+installation, this will sit fine on flat land without falling over.
+
+> **ProTip&trade;:** Install the loop and attach the driven element to the feed
+> line before inserting the support in to the base.
+
+#### Guy lines
+
+The 8 foot loop also needs guy lines. I cut paracord to three appropriate
+lengths, melted the ends closed, and tied a bowline knot on one
+end. After that I looped them around the center mast, placed the
+antenna on my support bucket, and secured the lines to stakes with
+tautline hitches and applied tension.
+
+A helper is extremely useful here especially when the land is not
+flat, but you can usually find one line to secure first while holding
+it tight and then go back and get the other two lines in to place.
+
+You will probably also want a step stool to adjust the driven element
+and find optimal positioning.
 
 ## Performance
 
-> [pskreporter.info](https://pskreporter.info/pskmap.html) provides
+> **ProTip&trade;:** [pskreporter.info](https://pskreporter.info/pskmap.html) provides
 > a great way to see how your antenna is doing when you're working
 > digital modes. Various stations send signal reports to a centralized
 > location where you can view how well things are propagating, even
@@ -327,13 +416,4 @@ are making it back, giving an effective radius of somewhere between
 
 <img src='/assets/img/40m_8ft_morning.png' />
 
-### Setting up the 8 footer!
-
-Holes were drilled in to the two base pieces to attach the cable.
-
-* Explain knots and holes!
-
-### Support Tension Lines
-
-* Tip: Cutting Paracord. Don't Saw. Melt briefly with grill lighter.
 
