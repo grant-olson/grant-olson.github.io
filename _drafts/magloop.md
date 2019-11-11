@@ -207,7 +207,7 @@ depending on how confident you are about getting the coax stripped and
 adapter installed on the first try. I used a female BNC adaptor but
 feel free to use whatever adapter you want.
 
-There are many confusing designs available for the driven element. In
+There are many confusing designs available[^driven_element] for the driven element. In
 the end I chose the least confusing one. This involved soldering the
 **center conductor** of the coax to the **shield** where the loop will
 be the appropriate size.
@@ -291,7 +291,7 @@ try to dial in on an exact bearing.
 Initial tuning is done by adjusting the variable capacitor. I attached
 a key ring to mine to make it easier to turn. When the capacitor is
 fully retracted and has the *least* amount of capacitance, you'll be
-closest to the ideal efficiency for the given loop size. At this
+closest to the ideal efficiency[^efficiency] for the given loop size. At this
 point, very small changes in capacitance will have a large impact on
 the frequency sweet spot. As you add more capacitance and the
 frequency goes down, you'll find that the bandwidth decreases and
@@ -459,3 +459,15 @@ From 9-10 PM on 80 meters, didn't hit Europe and only got as far west
 as North Dakota.
 
 <img src='/assets/img/magloop/80m_8ft_night.png' />
+
+## Reference
+
+[^driven_element]: [Inductive Coupling Designs](https://www.nonstopsystems.com/radio/frank_radio_antenna_magloop.htm#induct)
+    This article has a wealth of information on all things magloop, with a
+    particularly detailed description of various ways to drive the magloop.
+
+[^efficiency]: [Online Efficiency Calculator](http://www.66pacific.com/calculators/small-transmitting-loop-antenna-calculator.aspx)
+    and
+    [AA5TB's Excel Application](http://www.aa5tb.com/loop.html#cal)
+    allow you to estimate how much of your power makes it to the airwaves
+    for a given loop and frequency.
