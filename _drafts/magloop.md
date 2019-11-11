@@ -210,17 +210,23 @@ feel free to use whatever adapter you want.
 There are many confusing designs available for the driven element. In
 the end I chose the least confusing one. This involved soldering the
 **center conductor** of the coax to the **shield** where the loop will
-be the appropriate size. I still don't understand exactly how this
-works, but it does. RF behavior on what intuitively seems to be a
-short can be a bit strange at times.
+be the appropriate size.
 
-** IMAGE OF COAX **
+<img src='/assets/img/magloop/driven_element.jpg' />
 
-I stripped one end of the coax with a standard stripping tool, and
-then gently cut away the outer insulation for about 1 cm at the
-appropriate length. I then soldered taking care not to melt the
-dialectic material under the shield. After that I added an adapter to
-the free end.
+To make mine:
+
+1. I stripped one end of the coax with a standard stripping tool
+providing an extra long amount of exposed center conductor.
+2. I cut away the exposed coax shield at the end.
+3. I measured back to the appropriate length and carefully removed 1
+cm of casing without damaging the copper shield. It was best to score the casing on each side, cut a slot
+out between the two, and then peel the rest of the casing off.
+4. I wrapped the exposed center conductor around the exposed shield
+and soldered it.
+5. I used [silicone self-amalgamating tape](https://www.google.com/search?q=rescue+tape&oq=rescue+tape) to seal the connection. I
+imagine heat shrink tubing or electrical tape would be fine.
+6. I connected a BNC Female connector to the exposed end.
 
 ## Installation
 
