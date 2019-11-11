@@ -449,3 +449,7 @@ Atlantic Ocean was covered in darkness. Made several EU contacts.
 <img src='/assets/img/magloop/40m_8ft_sunset.png' />
 
 
+From 9-10 PM on 80 meters, didn't hit Europe and only got as far west
+as North Dakota.
+
+<img src='/assets/img/magloop/80m_8ft_night.png' />
