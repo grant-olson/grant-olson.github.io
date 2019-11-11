@@ -166,7 +166,7 @@ The attachments were glued on with PVC primer and glue. **DO THIS
 OUTSIDE!** I made the mistake of doing this on our enclosed porch, and
 fumes still managed to pervade the entire first floor of our house. We
 had to open the windows and air it all out. It is highly recommended
-you use more ventilation.
+you have more ventilation.
 
 ### Loops
 
@@ -190,8 +190,9 @@ The 8 foot loop ended up being slightly shorter because it was
 drooping more, and I went with more of a diamond shaped loop to avoid this.
 
 If you're trying to build your own antenna, rather than measuring out
-to these lengths, I would attach a PL239 adapter to one end of the
-coax, feet it through the supports and screw it in, and then mark off
+to these lengths,you should attach a PL239 adapter to one end of the
+coax, feet it through the supports and screw it in to one side of your
+base, and then mark off
 the appropriate place to cut the other end of the cable. This will
 give a better loop if your project box or SO-239 placement is
 different than mine.
@@ -214,19 +215,27 @@ be the appropriate size.
 
 <img src='/assets/img/magloop/driven_element.jpg' />
 
-To make mine:
+To make one:
 
-1. I stripped one end of the coax with a standard stripping tool
-providing an extra long amount of exposed center conductor.
-2. I cut away the exposed coax shield at the end.
-3. I measured back to the appropriate length and carefully removed 1
-cm of casing without damaging the copper shield. It was best to score the casing on each side, cut a slot
-out between the two, and then peel the rest of the casing off.
-4. I wrapped the exposed center conductor around the exposed shield
-and soldered it.
-5. I used [silicone self-amalgamating tape](https://www.google.com/search?q=rescue+tape&oq=rescue+tape) to seal the connection. I
-imagine heat shrink tubing or electrical tape would be fine.
-6. I connected a BNC Female connector to the exposed end.
+1. Cut a cable with an extra 6 to 12 inches to mount a connector to
+   the feedline.
+2. Strip one end of the coax with a standard stripping tool
+providing enough exposed center conductor to wrap around the cable.
+2. Cut away the exposed copper shield at the end so it doesn't
+   accidentally contact anything it shouldn't.
+3. Measure back to the appropriate length and carefully remove 1
+   cm of casing without damaging the copper shield.
+
+   I found It was best to score the jacket on each side creating
+  visible cut lines without cutting all the way to the copper, cut a slot
+  out between the two lines, and then peel the rest of the jacket off.
+4. Wrapped the exposed center conductor around the exposed shield
+   and solder it in place.
+5. Use
+   [silicone self-amalgamating tape](https://www.google.com/search?q=rescue+tape&oq=rescue+tape)
+   to seal the connection. I imagine heat shrink tubing or electrical
+   tape instead would also be fine.
+6. Connect a BNC Female connector or adapter of your choice to the exposed end.
 
 ## Installation
 
@@ -236,28 +245,34 @@ before trying to use it outside.
 
 ### Setting up the loop
 
-I would suggest starting with the 4 foot loop, which can get some
+I would suggest starting with the 4 foot loop, which can get good
 reception on 20, 40, and 80 meters. I would also suggest using a
-convenient workspace such as a table in your hamshack since it will
+workspace such as a table in your hamshack since it will
 take some time to perform initial configuration of the driven
 element. Once the driven element is configured, it will be easier to
 set up in a more desirable location.
 
-To assemble:
+To assemble in 4 foot mode:
 
 1. Add the two side supports and top support to the crossbeam.
 2. Insert the crossbeam in to the U bolts and tighten the wing nuts to
-hold it in place.
+   hold it in place.
 3. Hang the loop cable inside the top support, and thread the ends
-through the side supports.
+   through the side supports.
 4. Screw the PL-239 connectors in to the base unit.
-5. **First time only** Insert the driven element in to the top support,
-   and experiment with positioning as described in the
-   [tuning section](#tuning-the-driven-element) securing with temporary tape. Once you
-   find a workable position, permanently tape it in to place in a way
-   where it can be easily removed when the main loop is removed from
-   the support tubing.
-6. Attach the feed line to the driven element.
+5. Attach the feed line to the driven element.
+
+Initial configuration the **first time only**:
+
+1. Insert the driven element in to the top support under the main loop.
+2. Use an antenna analyzer to roughly adjust the tuning capacitor to
+   the desired frequency.
+3. Experiment with positioning as described in the
+   [tuning section](#tuning-the-driven-element) securing the driven
+   element with temporary tape.
+4. Once you find a workable position, permanently tape it the driven
+   element to the main loop in a way both pieces of coax can easily be
+   placed on the top support.
 
 It should loop like this:
 
@@ -311,8 +326,8 @@ main loop.
 
 You'll need to experiment for yourself. Here are some notes on what
 worked for me. These are not intended to be prescriptive; you'll need
-to find your own settings. They will just give you a starting point of
-adjustments to try:
+to find your own positioning. They will just give you a starting point
+for adjustments to try:
 
 * The driven elements should be close to the plane of the main loop,
   but don't worry about the support pipes preventing you from getting
@@ -348,9 +363,9 @@ adjustments to try:
 #### Tension lines
 
 The 8 foot loop requires both tension lines to hold the PVC supports
-in place. I
-drilled X/Y INCH holes in the support element that could pass
-through paracord. Holes were drilled through both sides of the pipe.
+in place. Drill X/Y INCH holes in the support element that could pass
+through paracord. Holes should be drilled through both sides of the
+pipe so the cord can be run through the pipe.
 
 Hole Placement:
 
@@ -368,44 +383,56 @@ coupling.
   but located so that they are *above* the capacitor housing so it
   doesn't interfere with the tension ropes.
 
-I cut appropriate lengths of rope and melted the ends shut with a
+Cut appropriate lengths of rope and melted the ends shut with a
 grill lighter. If you smell burning plastic and see smoke, you've
-melted them too much.
+melted them too much. Wrapping the cord around the pipe takes
+surprising amounts or cord, so start off with more cord than you think
+you'll need and trim it back after your initial assembly.
 
-I assembled the inner set of supports, which consists of the crossbeam
-and three extensions with normally placed holes. I tied a knot in one
-end of the paracord, inserted it through one set of holes at the base
-of the crossbeam, then worked my way through the other three supports
-running the line through the hole, pulling it tight, and tying a [clove
-hitch](https://www.netknots.com/rope_knots/clove-hitch). Once these three supports were secure, I ran the line through
-the second set of holes on the crossbeam, tied a [tautline hitch](https://www.netknots.com/rope_knots/tautline-hitch), and
-pulled it tight.
+First assemble the inner set of supports:
 
-I then added the remaining supports and did the same thing. It is best
-to (1) do this outdoors, and (2) only insert the supports as you're
+1. Attach the the crossbeam
+   and three extensions with normally placed holes.
+1. Tie a knot in one end of the paracord and insert it through one set of holes at the base
+   of the crossbeam.
+1. Work through the other three supports running the line through the
+   hole, pulling it tight, and tying a
+   [clove hitch](https://www.netknots.com/rope_knots/clove-hitch).
+1. Once these three supports are secure, run the line through
+the second set of holes on the crossbeam, tie a
+[tautline hitch](https://www.netknots.com/rope_knots/tautline-hitch), and
+pull it tight.
+
+The end supports can be attached and tied with the same procedure.
+It is best
+to (1) do this outdoors, and (2) only insert the supports one at a time as you're
 ready to tie them in place.
 
-At this point you can mount the support in to the base and tighten
+Next mount the support in to the base and tighten
 down the U Bolts. Although you'll need guy lines for long term
-installation, this will sit fine on flat land without falling over.
+installation, this will usually sit fine on flat land without falling over.
 
 > **ProTip&trade;:** Install the loop and attach the driven element to the feed
 > line before inserting the support in to the base.
 
 #### Guy lines
 
-The 8 foot loop also needs guy lines. I cut paracord to three appropriate
-lengths, melted the ends closed, and tied a [bowline knot](https://www.netknots.com/rope_knots/bowline) on one
-end. After that I looped them around the center mast, placed the
-antenna on my support bucket, and secured the lines to stakes with
-[tautline hitches](https://www.netknots.com/rope_knots/tautline-hitch) and applied tension.
+The 8 foot loop also needs guy lines. To prepare the guy lines, cut paracord to three appropriate
+lengths, melt the ends closed, and tie a [bowline knot](https://www.netknots.com/rope_knots/bowline) on one
+end.
+
+To install the guy lines loop them around the center mast, placed the
+antenna some sort of support, secure the lines to stakes with
+[tautline hitches](https://www.netknots.com/rope_knots/tautline-hitch),
+and apply tension.
 
 A helper is extremely useful here especially when the land is not
 flat, but you can usually find one line to secure first while holding
-it tight and then go back and get the other two lines in to place.
+it tight and then go back and get the other two lines in to place
+after the fact.
 
-You will probably also want a step stool to adjust the driven element
-and find optimal positioning.
+For the initial driven element configuration, you will probably also
+want a step stool to find optimal placement.
 
 ## Performance
 
