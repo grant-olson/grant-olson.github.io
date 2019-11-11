@@ -460,6 +460,16 @@ as North Dakota.
 
 <img src='/assets/img/magloop/80m_8ft_night.png' />
 
+#### 2019-Nov-11
+
+An hour in the morning with the 2 foot antenna on 15 meters, facing
+North/South. Surprisingly I got a lot of reception in the EU, and not
+so much in North and South America. Perhaps people just weren't online
+yet? Managed to contact the standard countries like Germany, France,
+and Italy, along with a new DXCC entry at Bosnia-Herzegovina.
+
+<img src='/assets/img/magloop/15m_2ft_morning.png' />
+
 ## Reference
 
 [^driven_element]: [Inductive Coupling Designs](https://www.nonstopsystems.com/radio/frank_radio_antenna_magloop.htm#induct)
