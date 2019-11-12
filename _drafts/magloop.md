@@ -140,7 +140,12 @@ attachment.
 
 ## Build
 
+<a href='/assets/img/magloop/capacitor.jpg'><img
+src='/assets/img/magloop/thumbs/capacitor.jpg' width='50%'
+style='float:right;' /></a>
+
 ### Capacitor Mounting and Base
+
 
 As I mentioned, when my capacitor from Ukraine arrived after six long
 weeks, it was bigger than I expected by far! But I was ready to get to
@@ -148,22 +153,69 @@ work. So I went to my local big box hardware store and found a 12 inch
 by 12 inch plastic electrical junction box. If I had been more
 patient, I probably could have found something cheaper.
 
-I drilled holes on two sides to mount some PL-239 adapters.
+<div style='clear:both;' />
+
+To make the basic base first mount the PL-239 adapters:
+
+1. Mark the centers of the adapters on the outside of the base.
+2. Drill pilot holes.
+3. Drill out the large holes until the threaded part of the PL-239 can
+fit through them.
+4. Insert the adapter through the hole backwards, so it faces
+**inside** the case. Mark the location of the four mounting holes in
+the adapter. Remove the adapter.
+5. Drill the mounting holes.
+6. Place the adapters in the correct way and mount them with nuts and
+bolts.
+7. Use one extra long bolt on each adapter so you can eventually wire
+   up the capacitor.
 
 > **ProTip&trade;:** If you're starting to make a bunch of amateur
 > radio gear and you don't have a [STEP DRILL BIT](https://www.google.com/search?q=step+drill+bit) you'll want to get
 > one as soon as possible. It allows you to drill large holes for
 > things like SO-239 adapters without having to switch out bits
-> repeatedly and without melting ABS plastic. A set is very affordable
+> repeatedly and without melting ABS plastic. A set is a few dollars
 > and probably available at your local Harbor Freight.
 
-<a href='/assets/img/magloop/capacitor.jpg'><img src='/assets/img/magloop/thumbs/capacitor.jpg' width='50%' style='float:right;' /></a> I used an
-extra long bolt and two washers to attach some 14 gauge wire to the
-adapters, and then attached this to the variable capacitor with hose
-clamps. 
 
-I also drilled six holes to allow me to use three 2 inch U Bolts with
-wing nuts to hold the mast in place. This completed the base.
+<a href='/assets/img/magloop/ubolts.jpg'><img src='/assets/img/magloop/thumbs/ubolts.jpg'  width='15%'
+style='float:right;' /></a>
+ To make the support holder:
+
+1. Drill three sets of holes: top, middle, and bottom, that will each
+fit a 1 inch U-bolt.
+2. Insert the U-Bolts and thread them in from the inside.
+
+<div style='clear:both' />
+
+To attach the capacitor:
+
+1. Cut two 8-inch lengths of 14 Gauge insulated stranded wire.
+2. Strip a 1/2 inch or so off of each wire.
+3.  On the long bolt on each adapter:
+    * Add one washer.
+    * Wrap the exposed wire around.
+	* Add another washer.
+	* Add another bolt and tighten to get a good connection.
+4. Take two hose clamps and put them on the ends of the
+capacitor. Screw them down until there's a half inch of slack.
+5. Place the capacitor in the base and position it.
+6. Trim and strip the other ends of the 14 gauge wires so that they
+   will reach the capacitor and have enough stripped wire to wrap
+   around the hose clamps twice.
+7. Remove hose clamps from the capacitor, wrap the wire around twice,
+   re-attach and screw them down to get good contact between the wire
+   and capacitor.
+ 
+ This completes a usable base.
+
+
+<a href='/assets/img/magloop/hose_clamp.jpg'><img src='/assets/img/magloop/thumbs/hose_clamp.jpg' width='50%'
+style='float:right;' /></a>
+<a href='/assets/img/magloop/attached_wire_cropped.jpg'><img src='/assets/img/magloop/thumbs/attached_wire_cropped.jpg' width='50%' /></a>
+
+<div style='clear:both' />
+
 
 This was enough to start using things, but it eventually
 became frustrating to tune the capacitor as it wobbled around. To
@@ -181,7 +233,8 @@ capacitor to the board with a few screws.
 > wobbling, I wanted to stop it, and I didn't want to use metal or
 > drill holes in the exterior case. This was the solution I came up
 > with. If I had a 3D printer I probably would have come up with
-> something better.
+> something better. I'm hesitant to give detailed instructions since
+> it was hacked together.
 >
 > In short, feel free to improvise with any element of the plans
 > presented here, and particularly with the capacitor support which
@@ -341,7 +394,7 @@ Initial configuration the **first time only**:
 
 It should loop like this:
 
-<a href='/assets/img/magloop/4ft_initial_config.jpg'><img src='/assets/img/magloop/thumbs/4ft_initial_config.jpg' /></a>
+<a href='/assets/img/magloop/4ft_assembled.jpg'><img src='/assets/img/magloop/thumbs/4ft_assembled.jpg' /></a>
 
 After initial testing you may want to set up the two foot loop. The
 procedure is basically the same, but you'll use the Top Support only
@@ -515,7 +568,7 @@ All results shown are from grid square EN90 running a Yaesu FT-857d at
 100 Watts.
 
 <table class='magloop'>
-<tr><th style='width:10%;'>Band</th><th style='width:45%'>One</th><th style='width:45%'>Two</th></tr>
+<tr><th style='width:10%;'>Band</th><th style='width:45%'>&nbsp;</th><th style='width:45%'>&nbsp;</th></tr>
 <tr><th>15</th>
 <td>
 <a href='/assets/img/magloop/15m_2ft_morning.png'><img src='/assets/img/magloop/thumbs/15m_2ft_morning.png' /></a>
