@@ -26,23 +26,23 @@ Need the TLDR on the antenna's performance? [Click Here!](#performance)
 
 One problem I had while learning about magloops was that things just
 didn't make sense! Everything I've read before said loop antennas need
-to be 1 wavelength, dipoles 1/2, and verticals 1/4 with ground
-radials. How on earth can a loop that's only 1/8th to 1/4th a
-wavelength, fed by another element that's 1/5th the size of that (so
-1/40th to 1/20th of a wavelength) even work at all?
+to be 1 wavelength loops, 1/2 wavelength dipoles, and 1/4 wavelength
+verticals with ground radials. How on earth can a loop that's only
+1/8th to 1/4th a wavelength, fed by another element that's 1/5th the
+size of that (so 1/40th to 1/20th of a wavelength) even work at all?
 
 Lets get the very brief theory of operation out of the way as
 painlessly as possible:
 
 Start with the main loop. You have a single loop of wire attached to a
-capacitor that is used to finish tuning. We know that a coil of wire
+capacitor opposite the driven element. We know that a coil of wire
 creates an inductor. In this case the loop is a coil with exactly one
-turn and is indded an inductor! Combined with the capacitor, we now
+turn and is indeed an inductor! Combined with the capacitor, we now
 have a [LC circuit](https://en.wikipedia.org/wiki/LC_circuit) which will resonate at appropriate frequencies.
 
 Next up is the driven element, the loop of wire connected to your
 transmitter and placed inside the main loop. Once again, even though this
-is a single loop, it's also a very simple 1 loop coil of wire, making
+is a single loop, it's also a 1 loop coil of wire, making
 it another inductor. And what
 happens when you place two coils of wire next to each other? You get a
 [transformer](https://en.wikipedia.org/wiki/Transformer). The driven
@@ -53,27 +53,46 @@ Hopefully that makes things seem slightly less mysterious.
 
 ## Design Goals and Decisions
 
-### Absurdly Large Capacitor!
+### It All Begins With an Absurdly Large Capacitor!
 
-As you read up on designs, one thing that quickly becomes apparent is
-that you need a variable capacitor that can handle very high voltages
-if you want to operate at higher than QRP levels. I'm still only operating at
-100 watts. The answer to this is to get a vacuum-sealed variable
-capacitor. One good affordable source is Soviet-Era Russian Surplus
-equipment on eBay. While looking around, I decided to go big or go
-home! I ordered a 10-500 pF capacitor that was rated at 10,000 volts.
+As I read up on literature and ran through online magloop calculators,
+a recurring theme is that a magloop can generate extremely high
+voltages, 3000-5000 volts and more! A standard air variable
+capacitor, where you rotate two sets of metal plates, can't handle
+those voltages with even moderate power. This isn't just a case of
+the literature being overly conservative. A previous magloop I build
+with such a capacitor would generate blue electric arcs when my
+transmitter hit even 15 to 20 watts.
 
-I didn't realize how big I had gone until the thing arrived. It was
-huge! *Get Dimensions* and weight in at something like 6 pounds! Many
-loop designers say the antenna works better if the capacitor is on the
-top of the loop. This simply wasn't going to happen with a capacitor
-this big and heavy. I also had dreams of a loop that I could easily
-mount on a mast to get some height off of the ground. That wasn't an
-option either given the size of this beast!
+I'm only plan to run 100 watts, but needed a capacitor that could
+handle more power. I needed a vaccum-sealed capacitor which removes
+the easy path for high voltage electric arcs between plates. The best way to get
+one that can do this and is affordable to the hobbiest is to order old
+Soviet-Era surplus vaccum variable capactiors off of eBay.
 
-My design was altered to put the capacitor in a big plastic box that
-would act as a base for the antenna. It can go on a table or stand,
-but needs some sort of stand to get distance from the ground.
+As I browsed the various listings from sellers in Ukraine and the
+Russian Federation, I kept upselling myself. *Only $10 more to handle
+10,000 volts! Sold!* *Only another $20 for another 100 picoFarads!
+Done!* And before I knew it I had purchased the biggest monstrosity of
+a variable capacitor that the finest minds in Soviet engineering could
+produce: A 10-510 picoFarad capacitor with a 10,000 kV rating. I
+didn't realize how big I had gone until the thing arrived. It was
+huge! 10 inches long, five inches wide each way, and weight in the
+range of 6 pounds!
+
+This forced me to change my initial design. Most loop builders indicate
+that they've gotten better results with the capacitor at the top of
+the loop and the driven element at the bottom. That was out based on
+the weight. And I originally hoped to get some height off the ground
+with a simple mast or tripod. Things would also be too top heavy for
+that.
+
+I decided to turn the size of the capacitor from a weakness to a
+strength. Instead of attaching to a mast, I would create a base unit
+that could stand on its own. The weight of the capacitor itself would
+help stabilize the antenna. The base could then be placed on a picnic
+table, the roof of a car, or even an upside down bucket for actual
+usage.
 
 ### Portable
 
@@ -85,29 +104,39 @@ least wanted to be able to get the thing inside my house or garage
 without having to take a cutting torch to it!
 
 Based on this, the main loop is just good old RG-213 coax with the
-shield acting as the loop. As an added bonus, this allowed me to make different
-swappable variations of loop sizes easily.
+shield acting as the loop. I can coil up the loop when not in use. As
+an added bonus, this allowed me to make different swappable variations
+of loop sizes easily.
 
 ### Temporary
 
-This is intended to be used onsite temporarily. It's not intended to
+This antenna intended to be used on site temporarily. It's not intended to
 be mounted permanently. As such I tried to make it a little weather
 resistant in case there's some light rain, but made no attempt to make
-it fully water or wind proof.
+it fully water or wind proof. If storms are coming the antenna goes inside.
 
-### No electronics
+### No Motors
 
-Most designs include a motor that spins the tuning capacitor at a
-distance. I had serious problems with a motor attached to a smaller capacitor on
-a previous build. For the moment I wanted thing to be predictable and
-not have to analyze how a bunch of coils of wire in the motor or other
-wires going to a control unit. So the capacitor is tuned by hand.
+Many designs include a motor that spins the tuning capacitor at a
+distance. Some include a rotator to take advantage of the antenna
+directionality.
 
-This has worked reasonably well while I've been testing on FT8, and
-also shouldn't be a problem if I park on a frequency to do POTA. In
-the future I may try to add in a tuning motor, but for now I want to
-get a feel for how the antenna performs without having to think about
-that complication.
+I had serious problems with a motor attached to a smaller capacitor on
+a previous antenna. It caused all kinds of stray capacitance and
+bizarre changes to SWR at random inexplicable times. I didn't know if
+it was the control cable for the motor, the coils of wire in the
+motor, the connection to the capacitor, or what.
+
+For now I will tune the antenna by hand, and position it by hand. This
+can be a little annoying, but I don't intend to hunt-and-seek
+contacts. I plan to sit on a frequency, such as an FT8 frequency, or
+possibly calling CQ on a single frequency in a future POTA
+excursion. And running FT8 has worked just fine.
+
+I'll probable reconsider this at some point, but at least then I will
+have a good handle on my baseline expectations for the antenna and a
+better feel for if and what problems are caused by a new motorized
+attachment.
 
 ## Build
 
@@ -133,8 +162,8 @@ extra long bolt and two washers to attach some 14 gauge wire to the
 adapters, and then attached this to the variable capacitor with hose
 clamps. 
 
-I also drilled six holes to allow me to use three U Bolts with wing nuts to hold the
-mast in place. This completed the base.
+I also drilled six holes to allow me to use three 2 inch U Bolts with
+wing nuts to hold the mast in place. This completed the base.
 
 This was enough to start using things, but it eventually
 became frustrating to tune the capacitor as it wobbled around. To
@@ -156,7 +185,9 @@ capacitor to the board with a few screws.
 >
 > In short, feel free to improvise with any element of the plans
 > presented here, and particularly with the capacitor support which
-> I just threw together in a weekend.
+> I just threw together in a weekend. Even now I find myself wondering
+> if I could make a base out of a beer cooler that's big enough to
+> hold all the cables and supports.
 
 
 
@@ -189,17 +220,21 @@ diameter of 1 inch.
 refer to as the **extensions**.
 extenders.
 
-The attachments were glued on with PVC primer and glue. **DO THIS
-OUTSIDE!** I made the mistake of doing this on our enclosed porch, and
-fumes still managed to pervade the entire first floor of our house. We
-had to open the windows and air it all out. It is highly recommended
-you have more ventilation.
+The attachments were glued on with PVC primer and glue so that when I
+disassemble the supports the right parts stay together and the wrong
+parts don't get stuck.
+
+> **ProTip&trade;:**  **DO THIS
+> OUTSIDE!** I made the mistake of doing this on our enclosed porch, and
+> fumes still managed to pervade the entire first floor of our house. We
+> had to open the windows and air it all out. It is highly recommended
+> you have more ventilation.
 
 ### Loops
 
 I will generally refer to the loops by diameter which is also the height of the
 PVC supports. These are nice round numbers where the actual size of
-the loop is diameter times pi. In addition there is some amount
+the loop is diameter times *Pi*. In addition there is some amount
 subtracted from the ideal cable length to account for the area of the
 loop where the capacitor sits and there isn't any wire.
 
@@ -258,7 +293,7 @@ providing enough exposed center conductor to wrap around the cable.
    I found It was best to score the jacket on each side creating
   visible cut lines without cutting all the way to the copper, cut a slot
   out between the two lines, and then peel the rest of the jacket off.
-4. Wrapped the exposed center conductor around the exposed shield
+4. Wrap the exposed center conductor around the exposed shield
    and solder it in place.
 5. Use
    [silicone self-amalgamating tape](https://www.google.com/search?q=rescue+tape&oq=rescue+tape)
@@ -270,9 +305,10 @@ providing enough exposed center conductor to wrap around the cable.
 
 At this point you should be ready to do an initial smoke test. I would
 recommend using the 4 foot antenna and setting the assembly on a table
+in your shack
 before trying to use it outside.
 
-### Setting up the loop
+### Setting up the antenna
 
 I would suggest starting with the 4 foot loop, which can get good
 reception on 20, 40, and 80 meters. I would also suggest using a
