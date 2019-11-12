@@ -73,11 +73,11 @@ transmitter hit even 15 to 20 watts.
 I'm only plan to run 100 watts, but needed a capacitor that could
 handle more power. I needed a vaccum-sealed capacitor which removes
 the easy path for high voltage electric arcs between plates. The best way to get
-one that can do this and is affordable to the hobbiest is to order old
-Soviet-Era surplus vaccum variable capactiors off of eBay.
+one that can do this and is affordable to the hobbyest is to order old
+Soviet-Era surplus vacuum variable capacitors off of eBay.
 
 As I browsed the various listings from sellers in Ukraine and the
-Russian Federation, I kept upselling myself. *Only $10 more to handle
+Russian Federation, I kept up-selling myself. *Only $10 more to handle
 10,000 volts! Sold!* *Only another $20 for another 100 picoFarads!
 Done!* And before I knew it I had purchased the biggest monstrosity of
 a variable capacitor that the finest minds in Soviet engineering could
@@ -515,7 +515,7 @@ you'll need and trim it back after your initial assembly.
 
 First assemble the inner set of supports:
 
-1. Attach the the crossbeam
+1. Attach the crossbeam
    and three extensions with normally placed holes.
 1. Tie a knot in one end of the paracord and insert it through one set of holes at the base
    of the crossbeam.
@@ -571,7 +571,8 @@ want a step stool to find optimal placement.
 
 
 All results shown are from grid square EN90 running a Yaesu FT-857d at
-100 Watts.
+100 Watts, operating in November 2019 in the deepest darkest reaches
+of the end of [Solar Cycle 24](https://en.wikipedia.org/wiki/Solar_cycle_24).
 
 <table class='magloop'>
 <tr><th style='width:10%;'>Band</th><th style='width:45%'>&nbsp;</th><th style='width:45%'>&nbsp;</th></tr>
@@ -579,7 +580,7 @@ All results shown are from grid square EN90 running a Yaesu FT-857d at
 <td>
 <a href='/assets/img/magloop/15m_2ft_morning.png'><img src='/assets/img/magloop/thumbs/15m_2ft_morning.png' /></a>
 <small>2 Foot / North-South / Morning</small>
-<small>QSOs with Germany, France,
+<br /><small>QSOs with Germany, France,
 and Italy, along with a new DXCC entry at Bosnia-Herzegovina.</small>
 </td>
 <td>
@@ -589,13 +590,13 @@ and Italy, along with a new DXCC entry at Bosnia-Herzegovina.</small>
 <td>
 <a href='/assets/img/magloop/20m_bearing_zero_alaska.png'><img src='/assets/img/magloop/thumbs/20m_bearing_zero_alaska.png' width='100%' /></a>
 
-<small>4 foot / North-South / Afternoon. First
+<small>4 foot / North-South / Afternoon</small><br /><small> First
 Alaska contact and a couple hits in Brazil.</small>
 
 </td>
 <td>
 <a href='/assets/img/magloop/20m_2ft_dusk.png'><img src='/assets/img/magloop/thumbs/20m_2ft_dusk.png' /></a>
-<small>2 foot / North_South / Dusk. Not as bad as expected.</small>
+<small>2 foot / North_South / Dusk.</small><br /><small>Not as bad as expected.</small>
 </td>
 
 </tr>
@@ -604,7 +605,8 @@ Alaska contact and a couple hits in Brazil.</small>
 <td>
 <a href='/assets/img/magloop/30m_8ft_ew.png' width='100%'><img src='/assets/img/magloop/thumbs/30m_8ft_ew.png' width='100%' /></a>
 
-<small>8 foot / East-West / Afternoon. QSOs with Italy, Croatia, Crete, and
+<small>8 foot / East-West / Afternoon.</small>
+<br /><small>QSOs with Italy, Croatia, Crete, and
 the Balearic Islands.</small>
 
 </td>
@@ -616,7 +618,9 @@ the Balearic Islands.</small>
 
 <a href='/assets/img/magloop/40m_8ft_morning.png'><img src='/assets/img/magloop/thumbs/40m_8ft_morning.png' /></a>
 
-<small>8 Foot / East-West / Morning. We are getting further than ground-wave, but only high angles
+<small>8 Foot / East-West / Morning.</small>
+<br />
+ <small>We are getting further than ground-wave, but only high angles
 are making it back, giving an effective radius of somewhere between
 750-1000 miles with a few outliers.</small>
 
@@ -626,6 +630,8 @@ are making it back, giving an effective radius of somewhere between
 <a href='/assets/img/magloop/40m_8ft_sunset.png'><img src='/assets/img/magloop/thumbs/40m_8ft_sunset.png' /></a>
 
 <small>8 Foot / East-West / Sunset</small>
+<br />
+<small>Now we're seeing good results to Europe!</small>
 
 
 
