@@ -5,7 +5,8 @@ title: KC3MLC's Magloop
 category: news
 ---
 
-<a href='/assets/img/magloop/4ft_loop.jpg'><img src='/assets/img/magloop/4ft_loop.jpg'  /></a>
+<a href='/assets/img/magloop/4ft_loop.jpg'><img
+src='/assets/img/magloop/thumbs/4ft_loop.jpg' width='100%'  /></a>
 
  I built my own MagLoop and wanted to take a moment to share
 everything I learned on the project. The design is moderately portable
@@ -115,7 +116,7 @@ I drilled holes on two sides to mount some PL-239 adapters.
 > repeatedly and without melting ABS plastic. A set is very affordable
 > and probably available at your local Harbor Freight.
 
-<a href='/assets/img/magloop/capacitor.jpg'><img src='/assets/img/magloop/capacitor.jpg' width='50%' style='float:right;' /></a> I used an
+<a href='/assets/img/magloop/capacitor.jpg'><img src='/assets/img/magloop/thumbs/capacitor.jpg' width='50%' style='float:right;' /></a> I used an
 extra long bolt and two washers to attach some 14 gauge wire to the
 adapters, and then attached this to the variable capacitor with hose
 clamps. 
@@ -135,7 +136,7 @@ capacitor to the board with a few screws.
 
 ### PVC Supports
 
-<a href='/assets/img/magloop/pvc_supports.jpg'><img src='/assets/img/magloop/pvc_supports.jpg' width='35%'
+<a href='/assets/img/magloop/pvc_supports.jpg'><img src='/assets/img/magloop/thumbs/pvc_supports.jpg' width='35%'
 style='float:right;' /></a> I
 made a set of composable PVC support
 pipes that would allow me to
@@ -151,7 +152,7 @@ diameter of 1 inch.
 * Two pipes with T adapters to support the sides of the RG-213 loop
   which I'll refer to as the **side supports**.
 
-* <a href='/assets/img/magloop/pvc_top_support.jpg'><img src='/assets/img/magloop/pvc_top_support.jpg' width='20%' style='float:right;' /></a> One pipe with a modified T adapter to support the top of the loop
+* <a href='/assets/img/magloop/pvc_top_support.jpg'><img src='/assets/img/magloop/thumbs/pvc_top_support.jpg' width='20%' style='float:right;' /></a> One pipe with a modified T adapter to support the top of the loop
   which I'll refer to as the **top support**. A
   slot was cut in to this so the main loop, along with the driven
   element could be hung on the adapter without having to pass through
@@ -199,7 +200,7 @@ different than mine.
 
 ### Driven Elements
 
-<a href='/assets/img/magloop/driven_element.jpg'><img src='/assets/img/magloop/driven_element.jpg' width="50%"
+<a href='/assets/img/magloop/driven_element.jpg'><img src='/assets/img/magloop/thumbs/driven_element.jpg' width="50%"
 style='float:right;' /></a>
 
 The driven elements are made from RG-8X and should be 1/5 the size of
@@ -278,13 +279,13 @@ Initial configuration the **first time only**:
 
 It should loop like this:
 
-<a href='/assets/img/magloop/4ft_initial_config.jpg'><img src='/assets/img/magloop/4ft_initial_config.jpg' /></a>
+<a href='/assets/img/magloop/4ft_initial_config.jpg'><img src='/assets/img/magloop/thumbs/4ft_initial_config.jpg' /></a>
 
 After initial testing you may want to set up the two foot loop. The
 procedure is basically the same, but you'll use the Top Support only
 on the base:
 
-<a href='/assets/img/magloop/2ft_loop.jpg'><img src='/assets/img/magloop/2ft_loop.jpg' /></a>
+<a href='/assets/img/magloop/2ft_loop.jpg'><img src='/assets/img/magloop/thumbs/2ft_loop.jpg' /></a>
 
 ### Positioning
 
@@ -335,18 +336,18 @@ for adjustments to try:
   but don't worry about the support pipes preventing you from getting
   that last 1/2 inch.
 
-* <a href='/assets/img/magloop/2ft_driven_element.jpg'><img src='/assets/img/magloop/2ft_driven_element.jpg' width='15%'
+* <a href='/assets/img/magloop/2ft_driven_element.jpg'><img src='/assets/img/magloop/thumbs/2ft_driven_element.jpg' width='15%'
   style='float:right;clear:both;overflow:auto;' /></a> My driven element for the 2 foot loop most resembles what you'll see
   in diagrams and is a nice round circle attached to the top of the
   antenna. Even still, some movement up and down on the bottom half
   helps as I switch between various bands.
 
-* <a href='/assets/img/magloop/4ft_driven_element.jpg'><img src='/assets/img/magloop/4ft_driven_element.jpg' width='15%'
+* <a href='/assets/img/magloop/4ft_driven_element.jpg'><img src='/assets/img/magloop/thumbs/4ft_driven_element.jpg' width='15%'
   style='float:right;clear:both;overflow:auto;' /></a> My driven element for 4 foot worked best with the most surface area
   possible attached to the main loop, and the bottom half located
   extremely high, making a crescent shape.
 
-* <a href='/assets/img/magloop/8ft_driven_element.jpg'><img src='/assets/img/magloop/8ft_driven_element.jpg' width='15%'
+* <a href='/assets/img/magloop/8ft_driven_element.jpg'><img src='/assets/img/magloop/thumbs/8ft_driven_element.jpg' width='15%'
   style='float:right;clear:both;overflow:auto;' /></a> The driven element for the 8 foot worked best
   in a kite shape, with
   barely any contact on the top of the loop. This also benefited from
@@ -360,7 +361,7 @@ for adjustments to try:
 
 ## Setting up the 8 footer
 
-<a href='/assets/img/magloop/8ft_front.jpg'><img src='/assets/img/magloop/8ft_front.jpg' /></a>
+<a href='/assets/img/magloop/8ft_front.jpg'><img src='/assets/img/magloop/thumbs/8ft_front.jpg' /></a>
 
 #### Tension lines
 
@@ -455,7 +456,7 @@ All results shown are from grid square EN90 running a Yaesu FT-857d at
 <tr><th style='width:10%;'>Band</th><th style='width:45%'>One</th><th style='width:45%'>Two</th></tr>
 <tr><th>15</th>
 <td>
-<a href='/assets/img/magloop/15m_2ft_morning.png'><img src='/assets/img/magloop/15m_2ft_morning.png' /></a>
+<a href='/assets/img/magloop/15m_2ft_morning.png'><img src='/assets/img/magloop/thumbs/15m_2ft_morning.png' /></a>
 <small>2 Foot / North-South / Morning</small>
 <small>QSOs with Germany, France,
 and Italy, along with a new DXCC entry at Bosnia-Herzegovina.</small>
@@ -465,14 +466,14 @@ and Italy, along with a new DXCC entry at Bosnia-Herzegovina.</small>
 
 <tr><th>20</th>
 <td>
-<a href='/assets/img/magloop/20m_bearing_zero_alaska.png'><img src='/assets/img/magloop/20m_bearing_zero_alaska.png' width='100%' /></a>
+<a href='/assets/img/magloop/20m_bearing_zero_alaska.png'><img src='/assets/img/magloop/thumbs/20m_bearing_zero_alaska.png' width='100%' /></a>
 
 <small>4 foot / North-South / Afternoon. First
 Alaska contact and a couple hits in Brazil.</small>
 
 </td>
 <td>
-<a href='/assets/img/magloop/20m_2ft_dusk.png'><img src='/assets/img/magloop/20m_2ft_dusk.png' /></a>
+<a href='/assets/img/magloop/20m_2ft_dusk.png'><img src='/assets/img/magloop/thumbs/20m_2ft_dusk.png' /></a>
 <small>2 foot / North_South / Dusk. Not as bad as expected.</small>
 </td>
 
@@ -480,7 +481,7 @@ Alaska contact and a couple hits in Brazil.</small>
 
 <tr><th>30</th>
 <td>
-<a href='/assets/img/magloop/30m_8ft_ew.png' width='100%'><img src='/assets/img/magloop/30m_8ft_ew.png' width='100%' /></a>
+<a href='/assets/img/magloop/30m_8ft_ew.png' width='100%'><img src='/assets/img/magloop/thumbs/30m_8ft_ew.png' width='100%' /></a>
 
 <small>8 foot / East-West / Afternoon. QSOs with Italy, Croatia, Crete, and
 the Balearic Islands.</small>
@@ -492,7 +493,7 @@ the Balearic Islands.</small>
 <tr><th>40</th>
 <td>
 
-<a href='/assets/img/magloop/40m_8ft_morning.png'><img src='/assets/img/magloop/40m_8ft_morning.png' /></a>
+<a href='/assets/img/magloop/40m_8ft_morning.png'><img src='/assets/img/magloop/thumbs/40m_8ft_morning.png' /></a>
 
 <small>8 Foot / East-West / Morning. We are getting further than ground-wave, but only high angles
 are making it back, giving an effective radius of somewhere between
@@ -501,7 +502,7 @@ are making it back, giving an effective radius of somewhere between
 
 </td>
 <td>
-<a href='/assets/img/magloop/40m_8ft_sunset.png'><img src='/assets/img/magloop/40m_8ft_sunset.png' /></a>
+<a href='/assets/img/magloop/40m_8ft_sunset.png'><img src='/assets/img/magloop/thumbs/40m_8ft_sunset.png' /></a>
 
 <small>8 Foot / East-West / Sunset</small>
 
@@ -512,7 +513,7 @@ are making it back, giving an effective radius of somewhere between
 
 <tr><th>80</th>
 <td>
-<a href='/assets/img/magloop/80m_8ft_night.png'><img src='/assets/img/magloop/80m_8ft_night.png' /></a>
+<a href='/assets/img/magloop/80m_8ft_night.png'><img src='/assets/img/magloop/thumbs/80m_8ft_night.png' /></a>
 
 <small>8 Foot / East-West / 10 PM </small>
 
