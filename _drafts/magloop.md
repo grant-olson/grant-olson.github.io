@@ -5,7 +5,7 @@ title: KC3MLC's Magloop
 category: news
 ---
 
-<img src='/assets/img/magloop/4ft_loop.jpg'  />
+<a href='/assets/img/magloop/4ft_loop.jpg'><img src='/assets/img/magloop/4ft_loop.jpg'  /></a>
 
  I built my own MagLoop and wanted to take a moment to share
 everything I learned on the project. The design is moderately portable
@@ -115,7 +115,7 @@ I drilled holes on two sides to mount some PL-239 adapters.
 > repeatedly and without melting ABS plastic. A set is very affordable
 > and probably available at your local Harbor Freight.
 
-<img src='/assets/img/magloop/capacitor.jpg' width='50%' style='float:right;' /> I used an
+<a href='/assets/img/magloop/capacitor.jpg'><img src='/assets/img/magloop/capacitor.jpg' width='50%' style='float:right;' /></a> I used an
 extra long bolt and two washers to attach some 14 gauge wire to the
 adapters, and then attached this to the variable capacitor with hose
 clamps. 
@@ -135,8 +135,8 @@ capacitor to the board with a few screws.
 
 ### PVC Supports
 
-<img src='/assets/img/magloop/pvc_supports.jpg' width='35%'
-style='float:right;' /> I
+<a href='/assets/img/magloop/pvc_supports.jpg'><img src='/assets/img/magloop/pvc_supports.jpg' width='35%'
+style='float:right;' /></a> I
 made a set of composable PVC support
 pipes that would allow me to
 easily set up loops of either 2, 4, or 8 foot diameters. My big box
@@ -151,7 +151,7 @@ diameter of 1 inch.
 * Two pipes with T adapters to support the sides of the RG-213 loop
   which I'll refer to as the **side supports**.
 
-* <img src='/assets/img/magloop/pvc_top_support.jpg' width='20%' style='float:right;' /> One pipe with a modified T adapter to support the top of the loop
+* <a href='/assets/img/magloop/pvc_top_support.jpg'><img src='/assets/img/magloop/pvc_top_support.jpg' width='20%' style='float:right;' /></a> One pipe with a modified T adapter to support the top of the loop
   which I'll refer to as the **top support**. A
   slot was cut in to this so the main loop, along with the driven
   element could be hung on the adapter without having to pass through
@@ -199,6 +199,9 @@ different than mine.
 
 ### Driven Elements
 
+<a href='/assets/img/magloop/driven_element.jpg'><img src='/assets/img/magloop/driven_element.jpg' width="50%"
+style='float:right;' /></a>
+
 The driven elements are made from RG-8X and should be 1/5 the size of
 the loop coax. I did not try to factor in the full loop size including
 capacitor and just used the physical coax length divided by 5. There
@@ -213,7 +216,6 @@ the end I chose the least confusing one. This involved soldering the
 **center conductor** of the coax to the **shield** where the loop will
 be the appropriate size.
 
-<img src='/assets/img/magloop/driven_element.jpg' />
 
 To make one:
 
@@ -276,13 +278,13 @@ Initial configuration the **first time only**:
 
 It should loop like this:
 
-<img src='/assets/img/magloop/4ft_initial_config.jpg' />
+<a href='/assets/img/magloop/4ft_initial_config.jpg'><img src='/assets/img/magloop/4ft_initial_config.jpg' /></a>
 
 After initial testing you may want to set up the two foot loop. The
 procedure is basically the same, but you'll use the Top Support only
 on the base:
 
-<img src='/assets/img/magloop/2ft_loop.jpg' />
+<a href='/assets/img/magloop/2ft_loop.jpg'><img src='/assets/img/magloop/2ft_loop.jpg' /></a>
 
 ### Positioning
 
@@ -333,19 +335,19 @@ for adjustments to try:
   but don't worry about the support pipes preventing you from getting
   that last 1/2 inch.
 
-* <img src='/assets/img/magloop/2ft_driven_element.jpg' width='15%'
-  style='float:right;clear:both;overflow:auto;' /> My driven element for the 2 foot loop most resembles what you'll see
+* <a href='/assets/img/magloop/2ft_driven_element.jpg'><img src='/assets/img/magloop/2ft_driven_element.jpg' width='15%'
+  style='float:right;clear:both;overflow:auto;' /></a> My driven element for the 2 foot loop most resembles what you'll see
   in diagrams and is a nice round circle attached to the top of the
   antenna. Even still, some movement up and down on the bottom half
   helps as I switch between various bands.
 
-* <img src='/assets/img/magloop/4ft_driven_element.jpg' width='15%'
-  style='float:right;clear:both;overflow:auto;' /> My driven element for 4 foot worked best with the most surface area
+* <a href='/assets/img/magloop/4ft_driven_element.jpg'><img src='/assets/img/magloop/4ft_driven_element.jpg' width='15%'
+  style='float:right;clear:both;overflow:auto;' /></a> My driven element for 4 foot worked best with the most surface area
   possible attached to the main loop, and the bottom half located
   extremely high, making a crescent shape.
 
-* <img src='/assets/img/magloop/8ft_driven_element.jpg' width='15%'
-  style='float:right;clear:both;overflow:auto;' /> The driven element for the 8 foot worked best
+* <a href='/assets/img/magloop/8ft_driven_element.jpg'><img src='/assets/img/magloop/8ft_driven_element.jpg' width='15%'
+  style='float:right;clear:both;overflow:auto;' /></a> The driven element for the 8 foot worked best
   in a kite shape, with
   barely any contact on the top of the loop. This also benefited from
   adjusting the position of the bottom on different frequencies. In
@@ -358,7 +360,7 @@ for adjustments to try:
 
 ## Setting up the 8 footer
 
-<img src='/assets/img/magloop/8ft_front.jpg' />
+<a href='/assets/img/magloop/8ft_front.jpg'><img src='/assets/img/magloop/8ft_front.jpg' /></a>
 
 #### Tension lines
 
