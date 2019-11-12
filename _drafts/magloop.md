@@ -8,8 +8,9 @@ category: news
 <a href='/assets/img/magloop/4ft_loop.jpg'><img
 src='/assets/img/magloop/thumbs/4ft_loop.jpg' width='100%'  /></a>
 
-I finally built my own MagLoop and wanted to take a moment to share
-everything I learned on the project.
+I finally built my own MagLoop and wanted to share plans, build tips,
+theory, and performance with everyone else who is thinking about
+trying to make one.
 
 The design is moderately portable and defaults to a 4 foot diameter
 loop. In addition, the loop can be swapped out for a smaller 2 foot
@@ -20,7 +21,12 @@ I've made plenty of FT-8 contacts from 15 to 80 meters on four continents
 (mine included) and have been happy with the results. I hope someone
 else can find it useful too.
 
-Need the TLDR on the antenna's performance? [Click Here!](#performance)
+Want to skip ahead?
+* [Design](#design-goals-and-decisions)
+* [Build](#build)
+* [Installation](#installation)
+* [Tuning](#tuning)
+* [Performance](#performance)
 
 ## Basic Magloop Theory
 
