@@ -449,53 +449,79 @@ want a step stool to find optimal placement.
 All results shown are from grid square EN90 running a Yaesu FT-857d at
 100 Watts.
 
-#### 2019-Nov-06
+<table class='magloop'>
+<tr><th style='width:10%;'>Band</th><th style='width:45%'>One</th><th style='width:45%'>Two</th></tr>
+<tr><th>15</th>
+<td>
+<a href='/assets/img/magloop/15m_2ft_morning.png'><img src='/assets/img/magloop/15m_2ft_morning.png' /></a>
+<small>2 Foot / North-South / Morning</small>
+<small>QSOs with Germany, France,
+and Italy, along with a new DXCC entry at Bosnia-Herzegovina.</small>
+</td>
+<td>
+ </td></tr>
 
-Afternoon with the 4 foot antenna sitting on a bucket tuned to 20
-meters sitting outside pointing exactly North-South. Scored my first
-Alaska contact and a couple hits in Brazil.
+<tr><th>20</th>
+<td>
+<a href='/assets/img/magloop/20m_bearing_zero_alaska.png'><img src='/assets/img/magloop/20m_bearing_zero_alaska.png' width='100%' /></a>
 
-<img src='/assets/img/magloop/20m_bearing_zero_alaska.png' width='100%' />
+<small>4 foot / North-South / Afternoon. First
+Alaska contact and a couple hits in Brazil.</small>
+
+</td>
+<td>
+<a href='/assets/img/magloop/20m_2ft_dusk.png'><img src='/assets/img/magloop/20m_2ft_dusk.png' /></a>
+<small>2 foot / North_South / Dusk. Not as bad as expected.</small>
+</td>
+
+</tr>
+
+<tr><th>30</th>
+<td>
+<a href='/assets/img/magloop/30m_8ft_ew.png' width='100%'><img src='/assets/img/magloop/30m_8ft_ew.png' width='100%' /></a>
+
+<small>8 foot / East-West / Afternoon. QSOs with Italy, Croatia, Crete, and
+the Balearic Islands.</small>
+
+</td>
+<td></td></tr>
 
 
-#### 2019-Nov-09
+<tr><th>40</th>
+<td>
 
-A half-hour in the afternoon with the 8 foot antenna facing East/West on 30
-meters. Contacted Italy a few times, as well as Croatia, Crete, and
-the Balearic Islands. PSKReporter showed one bounce to Australia but
-alas it didn't hold out!
+<a href='/assets/img/magloop/40m_8ft_morning.png'><img src='/assets/img/magloop/40m_8ft_morning.png' /></a>
 
-<img src='/assets/img/magloop/30m_8ft_ew.png' width='100%' />
-
-#### 2019-Nov-10
-
-A half-hour in the morning with the 8 foot antenna facing East/West on
-40 meters. We are getting further than ground-wave, but only high angles
+<small>8 Foot / East-West / Morning. We are getting further than ground-wave, but only high angles
 are making it back, giving an effective radius of somewhere between
-750-1000 miles with a few outliers.
-
-<img src='/assets/img/magloop/40m_8ft_morning.png' />
-
-Then an hour after sunset with the same configuration once the
-Atlantic Ocean was covered in darkness. Made several EU contacts.
-
-<img src='/assets/img/magloop/40m_8ft_sunset.png' />
+750-1000 miles with a few outliers.</small>
 
 
-From 9-10 PM on 80 meters, didn't hit Europe and only got as far west
-as North Dakota.
+</td>
+<td>
+<a href='/assets/img/magloop/40m_8ft_sunset.png'><img src='/assets/img/magloop/40m_8ft_sunset.png' /></a>
 
-<img src='/assets/img/magloop/80m_8ft_night.png' />
+<small>8 Foot / East-West / Sunset</small>
 
-#### 2019-Nov-11
 
-An hour in the morning with the 2 foot antenna on 15 meters, facing
-North/South. Surprisingly I got a lot of reception in the EU, and not
-so much in North and South America. Perhaps people just weren't online
-yet? Managed to contact the standard countries like Germany, France,
-and Italy, along with a new DXCC entry at Bosnia-Herzegovina.
 
-<img src='/assets/img/magloop/15m_2ft_morning.png' />
+
+</td></tr>
+
+<tr><th>80</th>
+<td>
+<a href='/assets/img/magloop/80m_8ft_night.png'><img src='/assets/img/magloop/80m_8ft_night.png' /></a>
+
+<small>8 Foot / East-West / 10 PM </small>
+
+
+</td><td></td></tr>
+
+</table>
+
+
+
+
 
 ## Reference
 
