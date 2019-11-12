@@ -8,36 +8,48 @@ category: news
 <a href='/assets/img/magloop/4ft_loop.jpg'><img
 src='/assets/img/magloop/thumbs/4ft_loop.jpg' width='100%'  /></a>
 
- I built my own MagLoop and wanted to take a moment to share
-everything I learned on the project. The design is moderately portable
-and defaults to a 4 foot diameter loop where I've made plenty of FT-8
-contacts on 17-80 meters. In addition, the loop can be swapped out for
-a smaller 2 foot loop to work higher frequencies up to 10 meters, and
-a larger 8 foot loop to get better efficiency on 30-80 meters.
+I finally built my own MagLoop and wanted to take a moment to share
+everything I learned on the project.
+
+The design is moderately portable and defaults to a 4 foot diameter
+loop. In addition, the loop can be swapped out for a smaller 2 foot
+loop to work higher frequencies up to 10 meters, and a larger 8 foot
+loop to get better efficiency on 30-80 meters.
+
+I've made plenty of FT-8 contacts from 15 to 80 meters on four continents
+(mine included) and have been happy with the results. I hope someone
+else can find it useful too.
 
 Need the TLDR on the antenna's performance? [Click Here!](#performance)
 
 ## Basic Magloop Theory
 
-One problem I had while learning about this was that things just
+One problem I had while learning about magloops was that things just
 didn't make sense! Everything I've read before said loop antennas need
 to be 1 wavelength, dipoles 1/2, and verticals 1/4 with ground
 radials. How on earth can a loop that's only 1/8th to 1/4th a
 wavelength, fed by another element that's 1/5th the size of that (so
 1/40th to 1/20th of a wavelength) even work at all?
 
-Lets start with the loop. You have a single loop of wire attached to a
+Lets get the very brief theory of operation out of the way as
+painlessly as possible:
+
+Start with the main loop. You have a single loop of wire attached to a
 capacitor that is used to finish tuning. We know that a coil of wire
 creates an inductor. In this case the loop is a coil with exactly one
-turn and does act as an inductor. Combined with the capacitor, we now
-have a LC circuit which will resonate at appropriate frequencies.
+turn and is indded an inductor! Combined with the capacitor, we now
+have a [LC circuit](https://en.wikipedia.org/wiki/LC_circuit) which will resonate at appropriate frequencies.
 
-Next up is the driven element, a loop of wire connected to your
-transmitter and placed inside the loop. Once again, even though this
-is a single loop, it's also a very simple coil of wire. And what
+Next up is the driven element, the loop of wire connected to your
+transmitter and placed inside the main loop. Once again, even though this
+is a single loop, it's also a very simple 1 loop coil of wire, making
+it another inductor. And what
 happens when you place two coils of wire next to each other? You get a
-transformer. The driven element puts out the energy, the loop receives
-it, and we're good to go.
+[transformer](https://en.wikipedia.org/wiki/Transformer). The driven
+element puts out the RF energy, where it is transferred to the loop,
+and we have radio waves.
+
+Hopefully that makes things seem slightly less mysterious.
 
 ## Design Goals and Decisions
 
@@ -130,7 +142,21 @@ reduce the wobbling, I bought a piece of 6 inch wood, and cut it it
 fit inside the box. I then used some old nylon straps to secure the
 capacitor to the board with a few screws.
 
-> **ProTip&trade;:** Note on improvisation with parts
+> **ProTip&trade;:** Often times when you're reading antenna plans
+> you'll be presented with a detailed manifest and list of parts. This
+> is nice to be exhaustive, but often times leads to the impression
+> that certain parts were carefully spec'ed out and tested, rather
+> than just being materials available to the author.
+>
+> The wooden base for my capacitor is just such a thing. It was
+> wobbling, I wanted to stop it, and I didn't want to use metal or
+> drill holes in the exterior case. This was the solution I came up
+> with. If I had a 3D printer I probably would have come up with
+> something better.
+>
+> In short, feel free to improvise with any element of the plans
+> presented here, and particularly with the capacitor support which
+> I just threw together in a weekend.
 
 
 
@@ -190,7 +216,7 @@ The actual cable length was:
 The 8 foot loop ended up being slightly shorter because it was
 drooping more, and I went with more of a diamond shaped loop to avoid this.
 
-If you're trying to build your own antenna, rather than measuring out
+While building your own antenna, rather than measuring out
 to these lengths,you should attach a PL239 adapter to one end of the
 coax, feet it through the supports and screw it in to one side of your
 base, and then mark off
