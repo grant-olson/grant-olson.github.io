@@ -1,0 +1,9 @@
+table.magloop {
+    border: 1pt solid black;
+}
+
+table.magloop th, table.magloop td {
+    border: 1pt solid black;
+    vertical-align: top;
+}
+
