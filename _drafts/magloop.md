@@ -61,6 +61,9 @@ Hopefully that makes things seem slightly less mysterious.
 
 ### It All Begins With an Absurdly Large Capacitor!
 
+<a href='/assets/img/magloop/500pf-cap.png'><img
+src='/assets/img/magloop/thumbs/500pf-cap.png' width='33%' style='float:right;' /></a>
+
 As I read up on literature and ran through online magloop calculators,
 a recurring theme is that a magloop can generate extremely high
 voltages, 3000-5000 volts and more! A standard air variable
@@ -81,7 +84,7 @@ Russian Federation, I kept up-selling myself. *Only $10 more to handle
 10,000 volts! Sold!* *Only another $20 for another 100 picoFarads!
 Done!* And before I knew it I had purchased the biggest monstrosity of
 a variable capacitor that the finest minds in Soviet engineering could
-produce: A 10-510 picoFarad capacitor with a 10,000 kV rating. I
+produce: A 10-500 picoFarad capacitor with a 10,000 kV rating. I
 didn't realize how big I had gone until the thing arrived. It was
 huge! 10 inches long, five inches wide each way, and weight in the
 range of 6 pounds!
