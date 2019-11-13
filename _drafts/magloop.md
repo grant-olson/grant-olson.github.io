@@ -161,11 +161,11 @@ patient, I probably could have found something cheaper.
 
 <div style='clear:both;' />
 
-To make the basic base first mount the PL-239 adapters:
+To make the basic base first mount the SO-239 adapters:
 
 1. Mark the centers of the adapters on the outside of the base.
 2. Drill pilot holes.
-3. Drill out the large holes until the threaded part of the PL-239 can
+3. Drill out the large holes until the threaded part of the SO-239 can
 fit through them.
 4. Insert the adapter through the hole backwards, so it faces
 **inside** the case. Mark the location of the four mounting holes in
@@ -297,7 +297,7 @@ the loop is diameter times *Pi*. In addition there is some amount
 subtracted from the ideal cable length to account for the area of the
 loop where the capacitor sits and there isn't any wire.
 
-The loops are made of RG-213 coax with PL239 plugs attached at each
+The loops are made of RG-213 coax with PL-239 plugs attached at each
 end. This allows me to insert the loop into the support frame and
 screw it in to the base.
 
@@ -311,7 +311,7 @@ The 8 foot loop ended up being slightly shorter because it was
 drooping more, and I went with more of a diamond shaped loop to avoid this.
 
 While building your own antenna, rather than measuring out
-to these lengths,you should attach a PL239 adapter to one end of the
+to these lengths,you should attach a PL-239 adapter to one end of the
 coax, feet it through the supports and screw it in to one side of your
 base, and then mark off
 the appropriate place to cut the other end of the cable. This will
@@ -324,7 +324,7 @@ different than mine.
 style='float:right;' /></a>
 
 The driven elements are made from RG-8X and should be 1/5 the size of
-the loop coax. I did not try to factor in the full loop size including
+the main loop coax. I did not try to factor in the full loop size including
 capacitor and just used the physical coax length divided by 5. There
 also needs to be a connector to hook the driven element up to your
 feed line, so when you cut the cable add 6 to 8 inches or more
@@ -373,7 +373,7 @@ I would suggest starting with the 4 foot loop, which can get good
 reception on 20, 40, and 80 meters. I would also suggest using a
 workspace such as a table in your hamshack since it will
 take some time to perform initial configuration of the driven
-element. Once the driven element is configured, it will be easier to
+element. Once the driven element is configured it will be easier to
 set up in a more desirable location.
 
 To assemble in 4 foot mode:
@@ -413,7 +413,7 @@ on the base:
 To get lowest SWR, the loop must be off of the ground. While testing
 on my back porch, I just sat it on a bar-height table. When I use the
 antenna outside, I set it on an upside-down utility bucket which is
-about 18 inches high. Any lower than that and the SWR starts creeping
+about 18 inches high. Any lower than that and the SWR started creeping
 up again. I suspect even higher is still better, as you'll get better
 angles for DX takeoff, but the bucket was adequate to hit Europe and
 South America from Pittsburgh.
@@ -434,12 +434,12 @@ closest to the ideal efficiency[^efficiency] for the given loop size. At this
 point, very small changes in capacitance will have a large impact on
 the frequency sweet spot. As you add more capacitance and the
 frequency goes down, you'll find that the bandwidth decreases and
-that you'll need to move the capacitor more to move the frequency.
+that you'll need to move the capacitor more to move the optimal frequency.
 
 #### Tuning the Driven Element
 
 When you initially tune the antenna, you'll probably have a poor
-best-case SWR. Once you're within range of the band you want to
+best-case SWR. Once you're within range of the frequency you want to
 transmit on, you'll need to adjust the driven element positioning to
 get the best possible SWR. This is done through experimentation and in
 my experience relies on two factors:
@@ -487,7 +487,7 @@ for adjustments to try:
 #### Tension lines
 
 The 8 foot loop requires both tension lines to hold the PVC supports
-in place. Drill X/Y INCH holes in the support element that could pass
+in place. Drill 1/4 inch holes in the support element that could pass
 through paracord. Holes should be drilled through both sides of the
 pipe so the cord can be run through the pipe.
 
@@ -506,6 +506,9 @@ coupling.
 * **The Base Extension** Two sets of holes like the crossbeam support,
   but located so that they are *above* the capacitor housing so it
   doesn't interfere with the tension ropes.
+
+Review the picture of the assembled antenna if my placement directions
+don't make sense.
 
 Cut appropriate lengths of rope and melted the ends shut with a
 grill lighter. If you smell burning plastic and see smoke, you've
@@ -534,9 +537,10 @@ ready to tie them in place.
 
 Next mount the support in to the base and tighten
 down the U Bolts. Although you'll need guy lines for long term
-installation, this will usually sit fine on flat land without falling over.
+installation, this will usually sit fine on flat land without tipping
+over. Still, release the supports slowly as you let go the first time.
 
-> **ProTip&trade;:** Install the loop and attach the driven element to the feed
+> **ProTip&trade;:** Install the main loop and attach the driven element to the feed
 > line before inserting the support in to the base.
 
 #### Guy lines
