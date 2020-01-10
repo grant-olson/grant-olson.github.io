@@ -123,3 +123,14 @@ Brew, please quit auto-upgrading services in a way that leaves things
 in an inconsistent state. If I need to manually migrate between major
 postgres versions, you shouldn't just automatically update when I'm
 installing a small utility that has postgres as a dependency.
+
+### Update 2019-01-09
+
+I just built some new OSX systems from scratch and had the opportunity
+to think about swapping brew out for Mac Ports or other
+solutions. I've been happy with brew 99.9% of the time, but still
+occasionally encounter problems with background servers. I continued
+to stick with brew for all my libraries, but used
+[Postgres.app](https://postgresapp.com/) for my database install. It
+integrates extremely well with brew and the rest of my tool chain, and
+gives me control over when and where to upgrade.
