@@ -102,11 +102,6 @@ Safari issue another coworker would have caught the error as well. But
 we were all working blissfully unaware of the problem until I fired up
 my backup laptop to do deploy a quick hotfix at home.
 
-(And I'll save the fact that pingdom doesn't care about invalid or
-expired certificates for another post. I've been meaning to send them
-a support ticket on that. Shouldn't complain without giving them a
-chance first.)
-
 This bothered us enough that we decided to reproduce the error in
 staging. We:
 
