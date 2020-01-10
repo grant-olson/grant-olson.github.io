@@ -8,7 +8,7 @@ category: news
 Are you getting https sec_error_unknown_issuer Error in Firefox? Did
 you add https at your EC2 Load Balancer? Well then Amazon lied to you.
 
-We just dealt with a really frustrating error over at webkite. Our
+We just dealt with a really frustrating error over at WebKite. Our
 site was suddenly broken with a bad ssl certificate, but only on
 Firefox. To make matters more confusing, things worked fine on all our
 Firefox installs in the office, but only blew up on clean installs.
