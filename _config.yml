@@ -16,6 +16,7 @@ my_theme:
   # Profile links on the left sidebar, leave blank to ignore
   social:
     github: grant-olson
+    thingiverse: logistix
   #  twitter: _swanson
   #  hacker_news: swanson
 
