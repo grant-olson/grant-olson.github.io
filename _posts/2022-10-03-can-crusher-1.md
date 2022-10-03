@@ -126,9 +126,13 @@ it does add up over 100 or 200 mm.
 After that it was smooth sailing and my CNC was just big enough to
 profile out all the parts.
 
+<a href='/assets/img/can-crusher/acrylic-plates.jpeg'><img src='/assets/img/can-crusher/acrylic-plates.jpeg' width='50%' style='float:right;' /></a>
+<a href='/assets/img/can-crusher/acrylic-plates.jpeg'><img src='/assets/img/can-crusher/cnc-running.jpeg' width='50%' /></a>
+
+
 # Assembly
 
-Assembly was pretty straight forward. Just put the parts together and
+Assembly was straight forward. Just put the parts together and
 secure with M5 bolts, either directly in to the tapped aluminum
 extrusions, or with some T-Slot Nuts to position things on the length
 of the rails. Having a printed base under the structural acrylic with
@@ -136,12 +140,15 @@ the bolts running through both worked better than expected. I attached
 some NEMA 17 stepper motors temporarily to the motor holders with some
 M3 bolts to verify the design.
 
-I'm happy with the results.
+I'm happy with the results!
+
+<a href='/assets/img/can-crusher/final-frame-assembly.jpeg'><img src='/assets/img/can-crusher/final-frame-assembly.jpeg' width='100%' /></a>
+
 
 # Next up...
 
 A proof of concept stepper motor driver powered by a Raspberry Pi Pico
-and some TCM2209 driver boards. These should allow me to detect stalls
+and some TMC2209 driver boards. These should allow me to detect stalls
 so that I can make a self-homing set of rails and not have to install
 annoying mechanical limit switches that are annoying to lock down in
 the right place.
