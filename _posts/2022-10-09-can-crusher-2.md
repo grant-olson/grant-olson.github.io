@@ -228,3 +228,9 @@ This is all getting in the way of working on the software
 development. I want to build out a dev PCB to eliminate most of these
 problems. This will make things a lot less fragile, and will add some
 features to make it easier for me to redeploy and test code quickly.
+
+***********************
+
+*All cad files, electronic files, source code, etc, referenced in this
+ post serise is available on [my github
+ page](https://github.com/grant-olson/can-crusher).*

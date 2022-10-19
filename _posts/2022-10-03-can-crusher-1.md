@@ -160,3 +160,9 @@ and some TMC2209 driver boards. These should drive the stepper
 motors. I chose TMC2209 drivers so I could try to create a self-homing
 machine. This avoids annoying mechanical limit switches that are
 difficult to position correctly.
+
+***********************
+
+*All cad files, electronic files, source code, etc, referenced in this
+ post serise is available on [my github
+ page](https://github.com/grant-olson/can-crusher).*

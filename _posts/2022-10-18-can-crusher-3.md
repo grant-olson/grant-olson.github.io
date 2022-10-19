@@ -366,3 +366,9 @@ without having to hard code a sequence of events in code base. This
 should make it easier for me to focus on algorithms for running the
 motors, find the right sensitivity settings for sensorless stalling,
 etc.
+
+***********************
+
+*All cad files, electronic files, source code, etc, referenced in this
+ post serise is available on [my github
+ page](https://github.com/grant-olson/can-crusher).*
