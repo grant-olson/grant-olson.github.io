@@ -232,5 +232,5 @@ features to make it easier for me to redeploy and test code quickly.
 ***********************
 
 *All cad files, electronic files, source code, etc, referenced in this
- post serise is available on [my github
+ post series is available on [my github
  page](https://github.com/grant-olson/can-crusher).*
