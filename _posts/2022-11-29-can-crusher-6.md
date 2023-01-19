@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: Can Crusher Part 6 - The Movie!
+title: Can Crusher - In Depth youtube Video on the Whole Project
 category: news
 ---
 
