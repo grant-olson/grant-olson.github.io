@@ -7,7 +7,7 @@ category: news
 
 **TLDR: Do you remove the film that says "Please press firmly on the build plate when tightening the screws"? YES**
 
-<img src="/img/elegoo-build-plate.jpeg" width="100%" />
+<img src="/assets/img/elegoo-build-plate.jpeg" width="100%" />
 
 I started up a new firmware job at PomSafe a few months ago. Our
 products are small and have some detailing that isn't suitable for my
