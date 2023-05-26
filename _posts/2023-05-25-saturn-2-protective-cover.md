@@ -31,11 +31,12 @@ consumer products, and a lot of the wisdom out there for these is
 aimed more at the tabletop miniatures crowd.
 
 I noticed that this film was starting peel off at the edges. So I got
-back to wondering if this film was supposed to come off. Searching on
-the exact term eventually got me to a few pages on reddit forums where
-people were talking and saying the film should come off. Infuriatingly
-I couldn't find any pictures of the base of the build plate on
-Elegoo's site.
+back to wondering if this film was supposed to come off.
+Infuriatingly I couldn't find any pictures of the base of the build
+plate on Elegoo's site to see what the installed plate was supposed to
+look like. Searching on the exact term eventually got me to a few
+pages on reddit forums where people were talking and saying the film
+should come off.
 
 So I'm creating this page to hopefully create something definitive that
 will show in in search results for others who have this problem. It's a
