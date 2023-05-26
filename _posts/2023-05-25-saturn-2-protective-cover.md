@@ -25,7 +25,7 @@ come off. It didn't budge and it looked like it had a precision fit so
 I left it on.
 
 I had some success with printing: the Rook worked, the Cones of
-Calibration and Amerilabs test print worked. But I had strange issues
+Calibration and Ameralabs test print worked. But I had strange issues
 where my custom STLs weren't quite sticking to the build plate. I was
 able to get good prints if I, for example, used a raft and tilted the
 parts at 45 degrees, and set the early layer burns to 60 seconds, and
