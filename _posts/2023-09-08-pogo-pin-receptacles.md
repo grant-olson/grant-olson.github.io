@@ -24,4 +24,4 @@ so I made this one to explain how to dramatically improve both the
 ease of construction and the reliability of fixtures and jigs that use
 pogo pins to make contact with your PCBAs.
 
-<iframe width="560" height="315" src="<iframe width="560" height="315" src="https://youtu.be/cvsxh8XzDFE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://youtu.be/cvsxh8XzDFE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
