@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: Can Crusher Part 4 - Towards Production Software
-category: news
+category: cc
 ---
 
 At this point I have a working dev board that makes it much easier to

@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: Can Crusher Part 2 - Stepper Drivers and Controls
-category: news
+category: cc
 ---
 
 Now that I've built a frame for my can crusher, the next big task is

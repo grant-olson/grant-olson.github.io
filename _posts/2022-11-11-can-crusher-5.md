@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: Can Crusher Part 5 - Mechanical Updates
-category: news
+category: cc
 ---
 
 Now that my software is in good shape and I can easily test out the

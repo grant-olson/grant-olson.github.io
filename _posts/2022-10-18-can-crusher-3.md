@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: Can Crusher Part 3 - Development PCBA
-category: news
+category: cc
 ---
 
 At this point I've built out the frame for my can crusher, and I wrote

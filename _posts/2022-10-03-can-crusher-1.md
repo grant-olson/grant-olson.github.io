@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: Can Crusher Part 1 - Building the Frame
-category: news
+category: cc
 ---
 
 I have some free time so I decided to do a project for
